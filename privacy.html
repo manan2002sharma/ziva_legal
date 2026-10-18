@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ziva Privacy Policy</title>
+<meta name="description" content="How Ziva handles your data: what stays on your iPhone, what passes through our servers, and how to delete it.">
+<style>
+  :root { --bg:#F4F3EF; --card:#FFFFFF; --text:#111111; --body:#3A3936; --muted:#6B6A65; --accent:#0B8043; --soft:#E5F3EA; --line:#ECEBE6; --todo:#FFF4D6; --todo-text:#7A5200; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#121211; --card:#1D1D1B; --text:#F4F3EF; --body:#D6D5CF; --muted:#A3A29C; --accent:#2FB36A; --soft:#17301F; --line:#2E2E2B; --todo:#3A2E10; --todo-text:#F5C96B; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--body); font:16px/1.65 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { color:var(--text); font-size: 32px; line-height:1.2; letter-spacing:-0.5px; margin:0 0 8px; }
+  h2 { color:var(--text); font-size: 21px; margin: 40px 0 10px; letter-spacing:-0.2px; }
+  h3 { color:var(--text); font-size: 17px; margin: 24px 0 6px; }
+  p, li { margin: 0 0 10px; }
+  ul { padding-left: 22px; margin: 0 0 12px; }
+  a { color: var(--accent); }
+  .meta { color: var(--muted); font-size: 14px; margin-bottom: 28px; }
+  .card { background: var(--card); border-radius: 16px; padding: 18px 20px; margin: 16px 0; }
+  .short { border: 2px solid var(--accent); }
+  .short h2 { margin-top: 0; }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-bottom: 1px solid var(--line); }
+  th { color: var(--text); font-weight: 600; }
+  .todo { background: var(--todo); color: var(--todo-text); border-radius: 6px; padding: 1px 6px; font-weight: 600; }
+  .brand { display:flex; align-items:center; gap:10px; color:var(--accent); font-weight:700; font-size:18px; margin-bottom: 20px; }
+  .dot { width:14px; height:18px; background:var(--accent); border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; }
+  .scroll { overflow-x: auto; }
+</style>
+</head>
+<body>
+<main>
+  <div class="brand"><span class="dot" aria-hidden="true"></span>Ziva</div>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective 18 October 2026 · Applies to the Ziva iPhone app · See also our <a href="terms.html">Terms of Use</a></p>
+
+  <p>Ziva builds you a meal and workout plan from a few questions, and lets you change it by chatting with Ziva. This policy explains what data that involves, where it goes, and how to delete it. "Ziva", "we" and "us" mean Manan Sharma, the founder and publisher of Ziva, based in Udaipur, Rajasthan, India, who decides how your data is used (the "data controller" or "data fiduciary").</p>
+
+  <section class="card short">
+    <h2>The short version</h2>
+    <ul>
+      <li><strong>Your plan, chat and reminders live on your iPhone.</strong> We don't keep copies on our servers.</li>
+      <li><strong>To build and change your plan, your answers and plan pass through our server and OpenAI</strong> for the moment it takes to reply, then they're discarded.</li>
+      <li><strong>Our server stores almost nothing about you:</strong> a random account ID, your subscription status and how much you've used Ziva. Never your answers, your plan or what you write.</li>
+      <li><strong>Sign in with Apple gives us no name or email.</strong> Your first name stays on your phone.</li>
+      <li><strong>No ads, no tracking, no selling data.</strong> Ziva has no advertising or analytics SDKs.</li>
+      <li><strong>Delete your account in the app</strong> (Profile → Delete account). It removes your data from our servers and from your iPhone.</li>
+    </ul>
+  </section>
+
+  <h2>1. What stays on your iPhone</h2>
+  <p>These are stored only on your device, in the app's own storage:</p>
+  <ul>
+    <li>Your answers to the onboarding questions (for example age, sex, height, weight, goal, activity level, diet, allergies, foods you like or avoid, equipment, training days, injuries, meal times and shopping day), and your first name if you enter one.</li>
+    <li>Your meal plan, workouts, grocery list, reminders and chat history.</li>
+    <li>Your sign-in session, kept in the iPhone Keychain.</li>
+  </ul>
+  <p>Ziva does not sync this to iCloud or to any server of ours. If you delete the app, sign out or delete your account, it is gone. Reminders are local notifications scheduled on your iPhone.</p>
+
+  <h2>2. What passes through our servers, and isn't kept</h2>
+  <p>When Ziva writes your plan, or when you send a chat message or tap a suggestion, the app sends our server what's needed to answer: your onboarding answers (not your name), your current plan, and your recent chat messages. Our server uses them to produce a reply or a proposed change, passes the necessary parts to OpenAI (section 4), and discards them when the request ends. They are not written to our database, our cache or our logs.</p>
+  <p>Each chat message is also checked by OpenAI's moderation service. If a message is flagged, we may record the <em>category</em> of the flag (for example "self-harm") with your account ID and the time, never the message itself, so we can respond to repeated safety concerns.</p>
+
+  <h2>3. What our servers store</h2>
+  <div class="scroll"><table>
+    <tr><th>Data</th><th>Why</th><th>How long</th></tr>
+    <tr><td>A random Ziva account ID (also your <strong>Support ID</strong> in the app)</td><td>To identify your account</td><td>Until you delete your account</td></tr>
+    <tr><td>The private identifier Sign in with Apple gives us</td><td>To recognise you when you sign in again</td><td>Until you delete your account</td></tr>
+    <tr><td>An encrypted Apple sign-in token</td><td>Only to revoke your Apple sign-in when you delete your account, as Apple requires</td><td>Until you delete your account</td></tr>
+    <tr><td>Sign-in sessions (stored as one-way hashes)</td><td>To keep you signed in</td><td>Up to 60 days, or until you sign out or delete your account</td></tr>
+    <tr><td>Subscription status: product, active or not, expiry date</td><td>To know whether your subscription is active</td><td>Until you delete your account</td></tr>
+    <tr><td>How many AI "tokens" your requests used, per day</td><td>To apply fair-use limits and understand costs</td><td>Until you delete your account (the rolling 7-day counter expires on its own)</td></tr>
+    <tr><td>Moderation flag categories (section 2)</td><td>Safety</td><td>Until you delete your account</td></tr>
+    <tr><td>Technical logs: your account ID, request timings, token counts, error codes</td><td>To run the service and fix problems. Logs never contain your answers, your plan or what you write</td><td>30 days</td></tr>
+  </table></div>
+
+  <h2>4. Who else processes your data</h2>
+  <p>We use these service providers. They process data on our behalf to run Ziva, and are not allowed to use it for their own advertising.</p>
+  <ul>
+    <li><strong>OpenAI</strong> writes your plan, answers chat messages and moderates them. It receives your onboarding answers (not your name), your plan and recent chat messages for each request. OpenAI states that data sent through its API is not used to train its models by default and may be kept for up to 30 days to monitor abuse (<a href="https://openai.com/enterprise-privacy/">OpenAI's business data policy</a>).</li>
+    <li><strong>Apple</strong> provides Sign in with Apple and handles all payments. We never see your card details.</li>
+    <li><strong>RevenueCat</strong> manages subscriptions. It receives your Ziva account ID, your purchase and subscription history, basic device and app information, and, if you answered it, where you heard about Ziva (<a href="https://www.revenuecat.com/privacy">RevenueCat's privacy policy</a>).</li>
+    <li><strong>Google Cloud</strong> hosts our server and its logs, in the United States.</li>
+    <li><strong>Neon</strong> hosts our database (section 3), in the United States.</li>
+    <li><strong>Upstash</strong> hosts the short-lived counters behind fair-use limits.</li>
+  </ul>
+  <p>Our servers and these providers are mainly in the United States. If you use Ziva from elsewhere, your data is transferred there under the safeguards each provider offers.</p>
+  <p>We don't sell or rent your personal information, share it for cross-context advertising, or use it to track you across apps and websites.</p>
+
+  <h2>5. Health information</h2>
+  <p>Your onboarding answers can include health-related information such as weight, goal and injuries. We use it only to build and adjust your plan, as described above, and never for advertising. Ziva gives general wellness guidance, not medical advice. Check with a doctor before making big changes to your diet or exercise.</p>
+
+  <h2>6. Deleting your data</h2>
+  <ul>
+    <li><strong>Delete your account:</strong> in the app, go to Profile → Delete account. We revoke your Apple sign-in, then delete your account, every sign-in session, your subscription record, moderation flags and usage history from our database. The app then erases your plan, chat, reminders and answers from your iPhone. Technical logs that contain only your account ID expire within 30 days.</li>
+    <li><strong>Deleting your account does not cancel your subscription.</strong> Apple bills subscriptions. Cancel in iPhone Settings → your name → Subscriptions.</li>
+    <li><strong>Sign out:</strong> Profile → Sign out also erases everything stored on your iPhone, because your plan exists only there.</li>
+    <li><strong>Revoke Sign in with Apple:</strong> you can also stop using Sign in with Apple for Ziva in iPhone Settings, under your Apple Account's Sign in with Apple list.</li>
+  </ul>
+
+  <h2>7. Your rights</h2>
+  <p>Depending on where you live (for example in India under the Digital Personal Data Protection Act, 2023, or in the EU, UK or California), you may have the right to access, correct, delete or receive a copy of your personal data, and to object to or restrict how we use it. Because most of your data stays on your iPhone, you can see and change it directly in the app. For anything held on our servers, contact us with your Support ID (Profile → Support ID) so we can find your account; we don't otherwise know who you are. You can also complain to your local data protection authority.</p>
+  <p>Where EU or UK law applies, we rely on <em>performance of a contract</em> to provide the service you sign up for, on your <em>explicit consent</em> for the health-related answers you choose to give, and on our <em>legitimate interests</em> for security, fair-use limits and fixing problems.</p>
+
+  <h2>8. Ziva is for adults (18 and over)</h2>
+  <p>Ziva is only for people aged 18 and over, in every country. The app asks your age before it builds a plan and won't build one for anyone younger. We don't knowingly collect data from anyone under 18. If you believe someone under 18 has given us data, contact us and we will delete it.</p>
+
+  <h2>9. Security</h2>
+  <p>Data travels between the app and our servers over encrypted connections (HTTPS and secure WebSockets). Sign-in tokens are stored in the iPhone Keychain, sessions are stored on our side only as one-way hashes, and the Apple sign-in token is encrypted. No system is perfectly secure, but we keep what we store to the minimum shown above.</p>
+
+  <h2>10. Changes to this policy</h2>
+  <p>If we change this policy, we'll update the date at the top. If a change affects how we use your data in a meaningful way, we'll tell you in the app before it takes effect.</p>
+
+  <h2>11. Contact and Grievance Officer</h2>
+  <p>Questions, requests or complaints about your data: <a href="mailto:whynothustle.manan@gmail.com">whynothustle.manan@gmail.com</a>. Please include your Support ID from Profile in the app so we can find your account.</p>
+  <p><strong>Grievance Officer:</strong> Manan Sharma, <a href="mailto:whynothustle.manan@gmail.com">whynothustle.manan@gmail.com</a>, Udaipur, Rajasthan, India. We aim to resolve grievances within one month of receiving them.</p>
+</main>
+</body>
+</html>
