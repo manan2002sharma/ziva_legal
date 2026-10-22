@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ziva Privacy Policy</title>
-<meta name="description" content="How Ziva handles your data: what stays on your iPhone, what passes through our servers, and how to delete it.">
+<meta name="description" content="How Ziva handles your data: what stays on your device, what passes through our servers, and how to delete it.">
 <style>
   :root { --bg:#F4F3EF; --card:#FFFFFF; --text:#111111; --body:#3A3936; --muted:#6B6A65; --accent:#0B8043; --soft:#E5F3EA; --line:#ECEBE6; --todo:#FFF4D6; --todo-text:#7A5200; }
   @media (prefers-color-scheme: dark) {
@@ -36,34 +36,36 @@
 <main>
   <div class="brand"><span class="dot" aria-hidden="true"></span>Ziva</div>
   <h1>Privacy Policy</h1>
-  <p class="meta">Effective 18 October 2026 · Applies to the Ziva iPhone app · See also our <a href="terms.html">Terms of Use</a></p>
+  <p class="meta">Effective 22 October 2026 · Applies to the Ziva app for iPhone and iPad · See also our <a href="terms.html">Terms of Use</a> and <a href="support.html">Support</a></p>
 
   <p>Ziva builds you a meal and workout plan from a few questions, and lets you change it by chatting with Ziva. This policy explains what data that involves, where it goes, and how to delete it. "Ziva", "we" and "us" mean Manan Sharma, the founder and publisher of Ziva, based in Udaipur, Rajasthan, India, who decides how your data is used (the "data controller" or "data fiduciary").</p>
 
   <section class="card short">
     <h2>The short version</h2>
     <ul>
-      <li><strong>Your plan, chat and reminders live on your iPhone.</strong> We don't keep copies on our servers.</li>
-      <li><strong>To build and change your plan, your answers and plan pass through our server and OpenAI</strong> for the moment it takes to reply, then they're discarded.</li>
+      <li><strong>Your plan, chat and reminders live on your device.</strong> We don't keep copies on our servers.</li>
+      <li><strong>Ziva asks before anything goes to OpenAI.</strong> To build and change your plan, your answers, your plan and your messages pass through our server to OpenAI. Our server discards them once it has replied; OpenAI may keep them for up to 30 days to check for abuse.</li>
       <li><strong>Our server stores almost nothing about you:</strong> a random account ID, your subscription status and how much you've used Ziva. Never your answers, your plan or what you write.</li>
-      <li><strong>Sign in with Apple gives us no name or email.</strong> Your first name stays on your phone.</li>
-      <li><strong>No ads, no tracking, no selling data.</strong> Ziva has no advertising or analytics SDKs.</li>
-      <li><strong>Delete your account in the app</strong> (Profile → Delete account). It removes your data from our servers and from your iPhone.</li>
+      <li><strong>Sign in with Apple gives us no name or email.</strong> Your first name stays on your device.</li>
+      <li><strong>No ads, no tracking across apps, no selling data.</strong> Ziva uses PostHog to learn which screens and features people use, never your answers, your plan or what you write.</li>
+      <li><strong>Delete your account in the app</strong> (Profile → Delete account). It removes your data from our servers and from your device.</li>
     </ul>
   </section>
 
-  <h2>1. What stays on your iPhone</h2>
+  <h2>1. What stays on your device</h2>
   <p>These are stored only on your device, in the app's own storage:</p>
   <ul>
     <li>Your answers to the onboarding questions (for example age, sex, height, weight, goal, activity level, diet, allergies, foods you like or avoid, equipment, training days, injuries, meal times and shopping day), and your first name if you enter one.</li>
     <li>Your meal plan, workouts, grocery list, reminders and chat history.</li>
-    <li>Your sign-in session, kept in the iPhone Keychain.</li>
+    <li>Your sign-in session, kept in your device's Keychain.</li>
   </ul>
-  <p>Ziva does not sync this to iCloud or to any server of ours. If you delete the app, sign out or delete your account, it is gone. Reminders are local notifications scheduled on your iPhone.</p>
+  <p>Ziva does not sync this to iCloud or to any server of ours. If you delete the app, sign out or delete your account, it is gone. Reminders are local notifications scheduled on your device.</p>
 
   <h2>2. What passes through our servers, and isn't kept</h2>
+  <p><strong>We ask first.</strong> After the last onboarding question, and before you sign in, the app shows a screen explaining that your answers, your plan and your messages are sent to OpenAI to write your plan and answer your chats. Nothing is sent until you tap <em>Agree and continue</em>. If you don't agree, Ziva can't write a plan. You can withdraw your agreement at any time by signing out or deleting your account (Profile); the app then asks again before sending anything.</p>
   <p>When Ziva writes your plan, or when you send a chat message or tap a suggestion, the app sends our server what's needed to answer: your onboarding answers (not your name), your current plan, and your recent chat messages. Our server uses them to produce a reply or a proposed change, passes the necessary parts to OpenAI (section 4), and discards them when the request ends. They are not written to our database, our cache or our logs.</p>
   <p>Each chat message is also checked by OpenAI's moderation service. If a message is flagged, we may record the <em>category</em> of the flag (for example "self-harm") with your account ID and the time, never the message itself, so we can respond to repeated safety concerns.</p>
+  <p><strong>Reporting a reply.</strong> If you report one of Ziva's replies (press and hold it, then <em>Report this reply</em>), your email app opens a message to us with the reply, its ID and your Support ID. We only receive it if you send it. We use reports, like any email you send us, to look into the problem and improve Ziva, and delete them once they've been dealt with.</p>
 
   <h2>3. What our servers store</h2>
   <div class="scroll"><table>
@@ -81,10 +83,12 @@
   <h2>4. Who else processes your data</h2>
   <p>We use these service providers. They process data on our behalf to run Ziva, and are not allowed to use it for their own advertising.</p>
   <ul>
-    <li><strong>OpenAI</strong> writes your plan, answers chat messages and moderates them. It receives your onboarding answers (not your name), your plan and recent chat messages for each request. OpenAI states that data sent through its API is not used to train its models by default and may be kept for up to 30 days to monitor abuse (<a href="https://openai.com/enterprise-privacy/">OpenAI's business data policy</a>).</li>
+    <li><strong>OpenAI</strong> writes your plan, answers chat messages and moderates them. It receives your onboarding answers (not your name), your plan and recent chat messages for each request. With chat messages it also receives your random Ziva account ID, so that your requests reuse the same cache, which makes replies faster; the ID doesn't tell OpenAI who you are. OpenAI states that data sent through its API is not used to train its models by default and may be kept for up to 30 days to monitor abuse (<a href="https://openai.com/enterprise-privacy/">OpenAI's business data policy</a>).</li>
     <li><strong>Apple</strong> provides Sign in with Apple and handles all payments. We never see your card details.</li>
     <li><strong>RevenueCat</strong> manages subscriptions. It receives your Ziva account ID, your purchase and subscription history, basic device and app information, and, if you answered it, where you heard about Ziva (<a href="https://www.revenuecat.com/privacy">RevenueCat's privacy policy</a>).</li>
+    <li><strong>PostHog</strong> shows us how the app is used, so we can improve it. It receives which screens you reach and which features you open (for example "meal opened" or "chat message sent"), recordings of your sessions with on-screen text and photos hidden, basic device and app information, an approximate location worked out from your IP address, and, once you sign in, your Ziva account ID. It never receives your answers, your plan or what you write. PostHog stores this in the United States (<a href="https://posthog.com/privacy">PostHog's privacy policy</a>).</li>
     <li><strong>Google Cloud</strong> hosts our server and its logs, in the United States.</li>
+    <li><strong>Gmail</strong> (Google) holds the emails you send us, including reported replies.</li>
     <li><strong>Neon</strong> hosts our database (section 3), in the United States.</li>
     <li><strong>Upstash</strong> hosts the short-lived counters behind fair-use limits.</li>
   </ul>
@@ -96,27 +100,28 @@
 
   <h2>6. Deleting your data</h2>
   <ul>
-    <li><strong>Delete your account:</strong> in the app, go to Profile → Delete account. We revoke your Apple sign-in, then delete your account, every sign-in session, your subscription record, moderation flags and usage history from our database. The app then erases your plan, chat, reminders and answers from your iPhone. Technical logs that contain only your account ID expire within 30 days.</li>
-    <li><strong>Deleting your account does not cancel your subscription.</strong> Apple bills subscriptions. Cancel in iPhone Settings → your name → Subscriptions.</li>
-    <li><strong>Sign out:</strong> Profile → Sign out also erases everything stored on your iPhone, because your plan exists only there.</li>
-    <li><strong>Revoke Sign in with Apple:</strong> you can also stop using Sign in with Apple for Ziva in iPhone Settings, under your Apple Account's Sign in with Apple list.</li>
+    <li><strong>Delete your account:</strong> in the app, go to Profile → Delete account. We revoke your Apple sign-in, then delete your account, every sign-in session, your subscription record, moderation flags and usage history from our database. The app then erases your plan, chat, reminders and answers from your device. Technical logs that contain only your account ID expire within 30 days.</li>
+    <li><strong>Usage data in PostHog</strong> (section 4) is linked only to your account ID. Email us your Support ID and we'll delete it.</li>
+    <li><strong>Deleting your account does not cancel your subscription.</strong> Apple bills subscriptions. Cancel on your iPhone or iPad in Settings → your name → Subscriptions.</li>
+    <li><strong>Sign out:</strong> Profile → Sign out also erases everything stored on your device, because your plan exists only there.</li>
+    <li><strong>Revoke Sign in with Apple:</strong> you can also stop using Sign in with Apple for Ziva in Settings, under your Apple Account's Sign in with Apple list.</li>
   </ul>
 
   <h2>7. Your rights</h2>
-  <p>Depending on where you live (for example in India under the Digital Personal Data Protection Act, 2023, or in the EU, UK or California), you may have the right to access, correct, delete or receive a copy of your personal data, and to object to or restrict how we use it. Because most of your data stays on your iPhone, you can see and change it directly in the app. For anything held on our servers, contact us with your Support ID (Profile → Support ID) so we can find your account; we don't otherwise know who you are. You can also complain to your local data protection authority.</p>
-  <p>Where EU or UK law applies, we rely on <em>performance of a contract</em> to provide the service you sign up for, on your <em>explicit consent</em> for the health-related answers you choose to give, and on our <em>legitimate interests</em> for security, fair-use limits and fixing problems.</p>
+  <p>Depending on where you live (for example in India under the Digital Personal Data Protection Act, 2023, or in the EU, UK or California), you may have the right to access, correct, delete or receive a copy of your personal data, and to object to or restrict how we use it, or withdraw your consent. Because most of your data stays on your device, you can see and change it directly in the app. For anything held on our servers, contact us with your Support ID (Profile → Support ID) so we can find your account; we don't otherwise know who you are. You can also complain to your local data protection authority.</p>
+  <p>Where EU or UK law applies, we rely on <em>performance of a contract</em> to provide the service you sign up for, on your <em>explicit consent</em> for the health-related answers you choose to give and for sending them to OpenAI, and on our <em>legitimate interests</em> for security, fair-use limits, fixing problems and understanding how the app is used.</p>
 
   <h2>8. Ziva is for adults (18 and over)</h2>
   <p>Ziva is only for people aged 18 and over, in every country. The app asks your age before it builds a plan and won't build one for anyone younger. We don't knowingly collect data from anyone under 18. If you believe someone under 18 has given us data, contact us and we will delete it.</p>
 
   <h2>9. Security</h2>
-  <p>Data travels between the app and our servers over encrypted connections (HTTPS and secure WebSockets). Sign-in tokens are stored in the iPhone Keychain, sessions are stored on our side only as one-way hashes, and the Apple sign-in token is encrypted. No system is perfectly secure, but we keep what we store to the minimum shown above.</p>
+  <p>Data travels between the app and our servers over encrypted connections (HTTPS and secure WebSockets). Sign-in tokens are stored in your device's Keychain, sessions are stored on our side only as one-way hashes, and the Apple sign-in token is encrypted. No system is perfectly secure, but we keep what we store to the minimum shown above.</p>
 
   <h2>10. Changes to this policy</h2>
   <p>If we change this policy, we'll update the date at the top. If a change affects how we use your data in a meaningful way, we'll tell you in the app before it takes effect.</p>
 
   <h2>11. Contact and Grievance Officer</h2>
-  <p>Questions, requests or complaints about your data: <a href="mailto:whynothustle.manan@gmail.com">whynothustle.manan@gmail.com</a>. Please include your Support ID from Profile in the app so we can find your account.</p>
+  <p>Questions, requests or complaints about your data: <a href="mailto:whynothustle.manan@gmail.com">whynothustle.manan@gmail.com</a>. Please include your Support ID from Profile in the app so we can find your account. Answers to common questions are on our <a href="support.html">Support</a> page.</p>
   <p><strong>Grievance Officer:</strong> Manan Sharma, <a href="mailto:whynothustle.manan@gmail.com">whynothustle.manan@gmail.com</a>, Udaipur, Rajasthan, India. We aim to resolve grievances within one month of receiving them.</p>
 </main>
 </body>
