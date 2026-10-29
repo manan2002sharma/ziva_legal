@@ -1,0 +1,2411 @@
+{
+ "weekStartDate": "2026-09-28",
+ "profile": {
+  "age": 29,
+  "sex": "male",
+  "heightCm": 178,
+  "weightKg": 82,
+  "activityLevel": "moderate",
+  "goal": "lose",
+  "targetRateKgPerWeek": 0.5,
+  "dietaryRestrictions": [],
+  "allergies": [],
+  "dislikedFoods": [
+   "mushrooms"
+  ],
+  "availableEquipment": [
+   "dumbbell",
+   "kettlebell",
+   "barbell",
+   "cable"
+  ],
+  "trainingDaysPerWeek": 4,
+  "injuries": [
+   "knee"
+  ],
+  "mealTimes": {
+   "breakfast": "08:00",
+   "lunch": "13:00",
+   "snack": "16:00",
+   "dinner": "19:30"
+  },
+  "shoppingDayOfWeek": 0
+ },
+ "targets": {
+  "kcal": 2150,
+  "proteinG": 161,
+  "carbsG": 242,
+  "fatG": 60,
+  "bmr": 1640,
+  "tdee": 2650,
+  "floorKcal": 1500
+ },
+ "meals": [
+  {
+   "id": "m0b",
+   "dayIndex": 0,
+   "slot": "breakfast",
+   "name": "Spinach & Feta Omelette",
+   "kcal": 450,
+   "proteinG": 34,
+   "carbsG": 18,
+   "fatG": 26,
+   "ingredients": [
+    {
+     "key": "egg",
+     "name": "Eggs",
+     "aisle": "dairy_eggs",
+     "grams": 150,
+     "displayText": "3 large eggs",
+     "shoppable": true,
+     "kcalPer100g": 169.81,
+     "proteinPer100g": 12.83,
+     "carbsPer100g": 6.79,
+     "fatPer100g": 9.81
+    },
+    {
+     "key": "spinach",
+     "name": "Spinach",
+     "aisle": "produce",
+     "grams": 30,
+     "displayText": "1 cup baby spinach",
+     "shoppable": true,
+     "kcalPer100g": 169.81,
+     "proteinPer100g": 12.83,
+     "carbsPer100g": 6.79,
+     "fatPer100g": 9.81
+    },
+    {
+     "key": "feta",
+     "name": "Feta",
+     "aisle": "dairy_eggs",
+     "grams": 30,
+     "displayText": "30 g feta, crumbled",
+     "shoppable": true,
+     "kcalPer100g": 169.81,
+     "proteinPer100g": 12.83,
+     "carbsPer100g": 6.79,
+     "fatPer100g": 9.81
+    },
+    {
+     "key": "sourdough_bread",
+     "name": "Sourdough bread",
+     "aisle": "bakery",
+     "grams": 50,
+     "displayText": "1 slice sourdough",
+     "shoppable": true,
+     "kcalPer100g": 169.81,
+     "proteinPer100g": 12.83,
+     "carbsPer100g": 6.79,
+     "fatPer100g": 9.81
+    },
+    {
+     "key": "olive_oil",
+     "name": "Olive oil",
+     "aisle": "oils_vinegars",
+     "grams": 5,
+     "displayText": "1 tsp olive oil",
+     "shoppable": true,
+     "kcalPer100g": 169.81,
+     "proteinPer100g": 12.83,
+     "carbsPer100g": 6.79,
+     "fatPer100g": 9.81
+    }
+   ],
+   "instructions": "Whisk the eggs with a pinch of salt.\nWilt the spinach in the oil over medium heat.\nPour in the eggs, scatter the feta and cook until just set.\nFold and serve with toasted sourdough."
+  },
+  {
+   "id": "m0l",
+   "dayIndex": 0,
+   "slot": "lunch",
+   "name": "Lentil Soup with Sourdough",
+   "kcal": 560,
+   "proteinG": 30,
+   "carbsG": 78,
+   "fatG": 12,
+   "ingredients": [
+    {
+     "key": "red_lentil",
+     "name": "Red lentils",
+     "aisle": "pantry_dry",
+     "grams": 100,
+     "displayText": "100 g red lentils",
+     "shoppable": true,
+     "kcalPer100g": 49.47,
+     "proteinPer100g": 2.65,
+     "carbsPer100g": 6.89,
+     "fatPer100g": 1.06
+    },
+    {
+     "key": "carrot",
+     "name": "Carrots",
+     "aisle": "produce",
+     "grams": 120,
+     "displayText": "2 carrots, diced",
+     "shoppable": true,
+     "kcalPer100g": 49.47,
+     "proteinPer100g": 2.65,
+     "carbsPer100g": 6.89,
+     "fatPer100g": 1.06
+    },
+    {
+     "key": "onion",
+     "name": "Onions",
+     "aisle": "produce",
+     "grams": 110,
+     "displayText": "1 onion, chopped",
+     "shoppable": true,
+     "kcalPer100g": 49.47,
+     "proteinPer100g": 2.65,
+     "carbsPer100g": 6.89,
+     "fatPer100g": 1.06
+    },
+    {
+     "key": "vegetable_stock",
+     "name": "Vegetable stock",
+     "aisle": "pantry_canned",
+     "grams": 750,
+     "displayText": "750 ml vegetable stock",
+     "shoppable": true,
+     "kcalPer100g": 49.47,
+     "proteinPer100g": 2.65,
+     "carbsPer100g": 6.89,
+     "fatPer100g": 1.06
+    },
+    {
+     "key": "sourdough_bread",
+     "name": "Sourdough bread",
+     "aisle": "bakery",
+     "grams": 50,
+     "displayText": "1 slice sourdough",
+     "shoppable": true,
+     "kcalPer100g": 49.47,
+     "proteinPer100g": 2.65,
+     "carbsPer100g": 6.89,
+     "fatPer100g": 1.06
+    },
+    {
+     "key": "cumin",
+     "name": "Cumin",
+     "aisle": "spices_herbs",
+     "grams": 2,
+     "displayText": "1 tsp ground cumin",
+     "shoppable": true,
+     "kcalPer100g": 49.47,
+     "proteinPer100g": 2.65,
+     "carbsPer100g": 6.89,
+     "fatPer100g": 1.06
+    }
+   ],
+   "instructions": "Soften the onion and carrot in a splash of stock for 5 minutes.\nAdd the lentils, cumin and remaining stock.\nSimmer for 20 minutes, then blend half for a creamy texture.\nServe with the sourdough."
+  },
+  {
+   "id": "m0s",
+   "dayIndex": 0,
+   "slot": "snack",
+   "name": "Cottage Cheese & Pineapple",
+   "kcal": 210,
+   "proteinG": 22,
+   "carbsG": 20,
+   "fatG": 4,
+   "ingredients": [
+    {
+     "key": "cottage_cheese",
+     "name": "Cottage cheese",
+     "aisle": "dairy_eggs",
+     "grams": 150,
+     "displayText": "150 g cottage cheese",
+     "shoppable": true,
+     "kcalPer100g": 91.3,
+     "proteinPer100g": 9.57,
+     "carbsPer100g": 8.7,
+     "fatPer100g": 1.74
+    },
+    {
+     "key": "pineapple",
+     "name": "Pineapple",
+     "aisle": "produce",
+     "grams": 80,
+     "displayText": "80 g pineapple chunks",
+     "shoppable": true,
+     "kcalPer100g": 91.3,
+     "proteinPer100g": 9.57,
+     "carbsPer100g": 8.7,
+     "fatPer100g": 1.74
+    }
+   ],
+   "instructions": "Spoon the cottage cheese into a bowl.\nTop with pineapple."
+  },
+  {
+   "id": "m0d",
+   "dayIndex": 0,
+   "slot": "dinner",
+   "name": "Chicken Stir-fry with Noodles",
+   "kcal": 650,
+   "proteinG": 50,
+   "carbsG": 70,
+   "fatG": 16,
+   "ingredients": [
+    {
+     "key": "chicken_breast",
+     "name": "Chicken breast",
+     "aisle": "meat_seafood",
+     "grams": 150,
+     "displayText": "150 g chicken breast, sliced",
+     "shoppable": true,
+     "kcalPer100g": 124.52,
+     "proteinPer100g": 9.58,
+     "carbsPer100g": 13.41,
+     "fatPer100g": 3.07
+    },
+    {
+     "key": "egg_noodle",
+     "name": "Egg noodles",
+     "aisle": "pantry_dry",
+     "grams": 70,
+     "displayText": "70 g dry egg noodles",
+     "shoppable": true,
+     "kcalPer100g": 124.52,
+     "proteinPer100g": 9.58,
+     "carbsPer100g": 13.41,
+     "fatPer100g": 3.07
+    },
+    {
+     "key": "bell_pepper",
+     "name": "Bell peppers",
+     "aisle": "produce",
+     "grams": 150,
+     "displayText": "1 red pepper, sliced",
+     "shoppable": true,
+     "kcalPer100g": 124.52,
+     "proteinPer100g": 9.58,
+     "carbsPer100g": 13.41,
+     "fatPer100g": 3.07
+    },
+    {
+     "key": "broccoli",
+     "name": "Broccoli",
+     "aisle": "produce",
+     "grams": 100,
+     "displayText": "100 g broccoli",
+     "shoppable": true,
+     "kcalPer100g": 124.52,
+     "proteinPer100g": 9.58,
+     "carbsPer100g": 13.41,
+     "fatPer100g": 3.07
+    },
+    {
+     "key": "soy_sauce",
+     "name": "Soy sauce",
+     "aisle": "condiments_sauces",
+     "grams": 32,
+     "displayText": "2 tbsp soy sauce",
+     "shoppable": true,
+     "kcalPer100g": 124.52,
+     "proteinPer100g": 9.58,
+     "carbsPer100g": 13.41,
+     "fatPer100g": 3.07
+    },
+    {
+     "key": "ginger",
+     "name": "Ginger",
+     "aisle": "produce",
+     "grams": 10,
+     "displayText": "Thumb of ginger, grated",
+     "shoppable": true,
+     "kcalPer100g": 124.52,
+     "proteinPer100g": 9.58,
+     "carbsPer100g": 13.41,
+     "fatPer100g": 3.07
+    },
+    {
+     "key": "olive_oil",
+     "name": "Olive oil",
+     "aisle": "oils_vinegars",
+     "grams": 10,
+     "displayText": "2 tsp oil",
+     "shoppable": true,
+     "kcalPer100g": 124.52,
+     "proteinPer100g": 9.58,
+     "carbsPer100g": 13.41,
+     "fatPer100g": 3.07
+    }
+   ],
+   "instructions": "Cook the noodles, drain and set aside.\nStir-fry the chicken in the oil over high heat for 5 minutes.\nAdd the vegetables and ginger and cook for 3 minutes more.\nToss through the noodles and soy sauce."
+  },
+  {
+   "id": "m1b",
+   "dayIndex": 1,
+   "slot": "breakfast",
+   "name": "Greek Yogurt Berry Bowl",
+   "kcal": 420,
+   "proteinG": 32,
+   "carbsG": 48,
+   "fatG": 11,
+   "ingredients": [
+    {
+     "key": "greek_yogurt",
+     "name": "Greek yogurt",
+     "aisle": "dairy_eggs",
+     "grams": 250,
+     "displayText": "250 g Greek yogurt (2%)",
+     "shoppable": true,
+     "kcalPer100g": 93.54,
+     "proteinPer100g": 7.13,
+     "carbsPer100g": 10.69,
+     "fatPer100g": 2.45
+    },
+    {
+     "key": "mixed_berrie",
+     "name": "Mixed berries",
+     "aisle": "produce",
+     "grams": 150,
+     "displayText": "1 cup mixed berries",
+     "shoppable": true,
+     "kcalPer100g": 93.54,
+     "proteinPer100g": 7.13,
+     "carbsPer100g": 10.69,
+     "fatPer100g": 2.45
+    },
+    {
+     "key": "rolled_oat",
+     "name": "Rolled oats",
+     "aisle": "pantry_dry",
+     "grams": 30,
+     "displayText": "30 g rolled oats",
+     "shoppable": true,
+     "kcalPer100g": 93.54,
+     "proteinPer100g": 7.13,
+     "carbsPer100g": 10.69,
+     "fatPer100g": 2.45
+    },
+    {
+     "key": "chia_seed",
+     "name": "Chia seeds",
+     "aisle": "nuts_seeds",
+     "grams": 12,
+     "displayText": "1 tbsp chia seeds",
+     "shoppable": true,
+     "kcalPer100g": 93.54,
+     "proteinPer100g": 7.13,
+     "carbsPer100g": 10.69,
+     "fatPer100g": 2.45
+    },
+    {
+     "key": "maple_syrup",
+     "name": "maple syrup",
+     "aisle": "condiments_sauces",
+     "grams": 7,
+     "displayText": "1 tsp maple syrup",
+     "shoppable": true,
+     "kcalPer100g": 93.54,
+     "proteinPer100g": 7.13,
+     "carbsPer100g": 10.69,
+     "fatPer100g": 2.45
+    }
+   ],
+   "instructions": "Spoon the yogurt into a bowl.\nTop with the berries, oats and chia seeds.\nDrizzle with maple syrup and eat straight away."
+  },
+  {
+   "id": "m1l",
+   "dayIndex": 1,
+   "slot": "lunch",
+   "name": "Chicken Quinoa Bowl",
+   "kcal": 640,
+   "proteinG": 48,
+   "carbsG": 62,
+   "fatG": 20,
+   "ingredients": [
+    {
+     "key": "chicken_breast",
+     "name": "Chicken breast",
+     "aisle": "meat_seafood",
+     "grams": 150,
+     "displayText": "150 g chicken breast",
+     "shoppable": true,
+     "kcalPer100g": 131.69,
+     "proteinPer100g": 9.88,
+     "carbsPer100g": 12.76,
+     "fatPer100g": 4.12
+    },
+    {
+     "key": "quinoa",
+     "name": "Quinoa",
+     "aisle": "pantry_dry",
+     "grams": 75,
+     "displayText": "75 g dry quinoa",
+     "shoppable": true,
+     "kcalPer100g": 131.69,
+     "proteinPer100g": 9.88,
+     "carbsPer100g": 12.76,
+     "fatPer100g": 4.12
+    },
+    {
+     "key": "spinach",
+     "name": "Spinach",
+     "aisle": "produce",
+     "grams": 30,
+     "displayText": "1 cup baby spinach",
+     "shoppable": true,
+     "kcalPer100g": 131.69,
+     "proteinPer100g": 9.88,
+     "carbsPer100g": 12.76,
+     "fatPer100g": 4.12
+    },
+    {
+     "key": "avocado",
+     "name": "Avocado",
+     "aisle": "produce",
+     "grams": 70,
+     "displayText": "½ avocado",
+     "shoppable": true,
+     "kcalPer100g": 131.69,
+     "proteinPer100g": 9.88,
+     "carbsPer100g": 12.76,
+     "fatPer100g": 4.12
+    },
+    {
+     "key": "cherry_tomatoe",
+     "name": "Cherry tomatoes",
+     "aisle": "produce",
+     "grams": 120,
+     "displayText": "8 cherry tomatoes",
+     "shoppable": true,
+     "kcalPer100g": 131.69,
+     "proteinPer100g": 9.88,
+     "carbsPer100g": 12.76,
+     "fatPer100g": 4.12
+    },
+    {
+     "key": "olive_oil",
+     "name": "Olive oil",
+     "aisle": "oils_vinegars",
+     "grams": 14,
+     "displayText": "1 tbsp olive oil",
+     "shoppable": true,
+     "kcalPer100g": 131.69,
+     "proteinPer100g": 9.88,
+     "carbsPer100g": 12.76,
+     "fatPer100g": 4.12
+    },
+    {
+     "key": "lemon",
+     "name": "Lemons",
+     "aisle": "produce",
+     "grams": 20,
+     "displayText": "Juice of ½ lemon",
+     "shoppable": true,
+     "kcalPer100g": 131.69,
+     "proteinPer100g": 9.88,
+     "carbsPer100g": 12.76,
+     "fatPer100g": 4.12
+    },
+    {
+     "key": "honey",
+     "name": "honey",
+     "aisle": "condiments_sauces",
+     "grams": 7,
+     "displayText": "1 tsp honey",
+     "shoppable": true,
+     "kcalPer100g": 131.69,
+     "proteinPer100g": 9.88,
+     "carbsPer100g": 12.76,
+     "fatPer100g": 4.12
+    }
+   ],
+   "instructions": "Rinse the quinoa and simmer in 150 ml water for 12–15 minutes, then fluff with a fork.\nSeason the chicken and cook in half the olive oil over medium-high heat, 5–6 minutes per side.\nWhisk the remaining oil with the lemon juice and honey to make the dressing.\nSlice the chicken and avocado, and halve the tomatoes.\nLayer spinach, quinoa, chicken and vegetables in a bowl and drizzle with the dressing."
+  },
+  {
+   "id": "m1s",
+   "dayIndex": 1,
+   "slot": "snack",
+   "name": "Apple & Peanut Butter",
+   "kcal": 230,
+   "proteinG": 7,
+   "carbsG": 25,
+   "fatG": 12,
+   "ingredients": [
+    {
+     "key": "apple",
+     "name": "Apples",
+     "aisle": "produce",
+     "grams": 180,
+     "displayText": "1 medium apple",
+     "shoppable": true,
+     "kcalPer100g": 112.75,
+     "proteinPer100g": 3.43,
+     "carbsPer100g": 12.25,
+     "fatPer100g": 5.88
+    },
+    {
+     "key": "peanut_butter",
+     "name": "Peanut butter",
+     "aisle": "condiments_sauces",
+     "grams": 24,
+     "displayText": "1½ tbsp peanut butter",
+     "shoppable": true,
+     "kcalPer100g": 112.75,
+     "proteinPer100g": 3.43,
+     "carbsPer100g": 12.25,
+     "fatPer100g": 5.88
+    }
+   ],
+   "instructions": "Core the apple and cut it into wedges.\nServe with the peanut butter for dipping."
+  },
+  {
+   "id": "m1d",
+   "dayIndex": 1,
+   "slot": "dinner",
+   "name": "Salmon, Rice & Greens",
+   "kcal": 690,
+   "proteinG": 44,
+   "carbsG": 68,
+   "fatG": 24,
+   "ingredients": [
+    {
+     "key": "salmon_fillet",
+     "name": "Salmon fillet",
+     "aisle": "meat_seafood",
+     "grams": 150,
+     "displayText": "150 g salmon fillet",
+     "shoppable": true,
+     "kcalPer100g": 138.0,
+     "proteinPer100g": 8.8,
+     "carbsPer100g": 13.6,
+     "fatPer100g": 4.8
+    },
+    {
+     "key": "brown_rice",
+     "name": "Brown rice",
+     "aisle": "pantry_dry",
+     "grams": 75,
+     "displayText": "75 g dry brown rice",
+     "shoppable": true,
+     "kcalPer100g": 138.0,
+     "proteinPer100g": 8.8,
+     "carbsPer100g": 13.6,
+     "fatPer100g": 4.8
+    },
+    {
+     "key": "broccoli",
+     "name": "Broccoli",
+     "aisle": "produce",
+     "grams": 150,
+     "displayText": "150 g broccoli florets",
+     "shoppable": true,
+     "kcalPer100g": 138.0,
+     "proteinPer100g": 8.8,
+     "carbsPer100g": 13.6,
+     "fatPer100g": 4.8
+    },
+    {
+     "key": "green_bean",
+     "name": "Green beans",
+     "aisle": "produce",
+     "grams": 100,
+     "displayText": "100 g green beans",
+     "shoppable": true,
+     "kcalPer100g": 138.0,
+     "proteinPer100g": 8.8,
+     "carbsPer100g": 13.6,
+     "fatPer100g": 4.8
+    },
+    {
+     "key": "olive_oil",
+     "name": "Olive oil",
+     "aisle": "oils_vinegars",
+     "grams": 5,
+     "displayText": "1 tsp olive oil",
+     "shoppable": true,
+     "kcalPer100g": 138.0,
+     "proteinPer100g": 8.8,
+     "carbsPer100g": 13.6,
+     "fatPer100g": 4.8
+    },
+    {
+     "key": "soy_sauce",
+     "name": "Soy sauce",
+     "aisle": "condiments_sauces",
+     "grams": 16,
+     "displayText": "1 tbsp soy sauce",
+     "shoppable": true,
+     "kcalPer100g": 138.0,
+     "proteinPer100g": 8.8,
+     "carbsPer100g": 13.6,
+     "fatPer100g": 4.8
+    },
+    {
+     "key": "garlic",
+     "name": "Garlic",
+     "aisle": "produce",
+     "grams": 4,
+     "displayText": "1 garlic clove",
+     "shoppable": true,
+     "kcalPer100g": 138.0,
+     "proteinPer100g": 8.8,
+     "carbsPer100g": 13.6,
+     "fatPer100g": 4.8
+    }
+   ],
+   "instructions": "Cook the rice according to the pack, about 25 minutes.\nHeat the oven to 200 °C. Rub the salmon with oil, garlic and soy sauce and bake for 12–14 minutes.\nSteam the broccoli and green beans for 4–5 minutes.\nServe the salmon over the rice with the greens on the side."
+  },
+  {
+   "id": "m2b",
+   "dayIndex": 2,
+   "slot": "breakfast",
+   "name": "Overnight Oats with Banana",
+   "kcal": 440,
+   "proteinG": 24,
+   "carbsG": 64,
+   "fatG": 10,
+   "ingredients": [
+    {
+     "key": "rolled_oat",
+     "name": "Rolled oats",
+     "aisle": "pantry_dry",
+     "grams": 60,
+     "displayText": "60 g rolled oats",
+     "shoppable": true,
+     "kcalPer100g": 90.35,
+     "proteinPer100g": 4.93,
+     "carbsPer100g": 13.14,
+     "fatPer100g": 2.05
+    },
+    {
+     "key": "milk",
+     "name": "Milk",
+     "aisle": "dairy_eggs",
+     "grams": 206,
+     "displayText": "200 ml semi-skimmed milk",
+     "shoppable": true,
+     "kcalPer100g": 90.35,
+     "proteinPer100g": 4.93,
+     "carbsPer100g": 13.14,
+     "fatPer100g": 2.05
+    },
+    {
+     "key": "banana",
+     "name": "Bananas",
+     "aisle": "produce",
+     "grams": 120,
+     "displayText": "1 banana, sliced",
+     "shoppable": true,
+     "kcalPer100g": 90.35,
+     "proteinPer100g": 4.93,
+     "carbsPer100g": 13.14,
+     "fatPer100g": 2.05
+    },
+    {
+     "key": "greek_yogurt",
+     "name": "Greek yogurt",
+     "aisle": "dairy_eggs",
+     "grams": 100,
+     "displayText": "100 g Greek yogurt",
+     "shoppable": true,
+     "kcalPer100g": 90.35,
+     "proteinPer100g": 4.93,
+     "carbsPer100g": 13.14,
+     "fatPer100g": 2.05
+    },
+    {
+     "key": "cumin",
+     "name": "Cumin",
+     "aisle": "spices_herbs",
+     "grams": 1,
+     "displayText": "½ tsp cinnamon",
+     "shoppable": true,
+     "kcalPer100g": 90.35,
+     "proteinPer100g": 4.93,
+     "carbsPer100g": 13.14,
+     "fatPer100g": 2.05
+    }
+   ],
+   "instructions": "Stir the oats, milk, yogurt and cinnamon together in a jar.\nCover and refrigerate overnight.\nTop with sliced banana in the morning."
+  },
+  {
+   "id": "m2l",
+   "dayIndex": 2,
+   "slot": "lunch",
+   "name": "Turkey & Hummus Wrap",
+   "kcal": 590,
+   "proteinG": 42,
+   "carbsG": 58,
+   "fatG": 19,
+   "ingredients": [
+    {
+     "key": "turkey_breast",
+     "name": "Turkey breast",
+     "aisle": "meat_seafood",
+     "grams": 120,
+     "displayText": "120 g sliced turkey breast",
+     "shoppable": true,
+     "kcalPer100g": 168.57,
+     "proteinPer100g": 12.0,
+     "carbsPer100g": 16.57,
+     "fatPer100g": 5.43
+    },
+    {
+     "key": "wholewheat_wrap",
+     "name": "Wholewheat wraps",
+     "aisle": "bakery",
+     "grams": 65,
+     "displayText": "1 large wholewheat wrap",
+     "shoppable": true,
+     "kcalPer100g": 168.57,
+     "proteinPer100g": 12.0,
+     "carbsPer100g": 16.57,
+     "fatPer100g": 5.43
+    },
+    {
+     "key": "hummu",
+     "name": "Hummus",
+     "aisle": "condiments_sauces",
+     "grams": 45,
+     "displayText": "3 tbsp hummus",
+     "shoppable": true,
+     "kcalPer100g": 168.57,
+     "proteinPer100g": 12.0,
+     "carbsPer100g": 16.57,
+     "fatPer100g": 5.43
+    },
+    {
+     "key": "cucumber",
+     "name": "Cucumber",
+     "aisle": "produce",
+     "grams": 100,
+     "displayText": "½ cucumber, sliced",
+     "shoppable": true,
+     "kcalPer100g": 168.57,
+     "proteinPer100g": 12.0,
+     "carbsPer100g": 16.57,
+     "fatPer100g": 5.43
+    },
+    {
+     "key": "spinach",
+     "name": "Spinach",
+     "aisle": "produce",
+     "grams": 20,
+     "displayText": "Handful of spinach",
+     "shoppable": true,
+     "kcalPer100g": 168.57,
+     "proteinPer100g": 12.0,
+     "carbsPer100g": 16.57,
+     "fatPer100g": 5.43
+    }
+   ],
+   "instructions": "Spread the hummus over the wrap.\nLayer the turkey, cucumber and spinach.\nRoll tightly, slice in half and serve."
+  },
+  {
+   "id": "m2s",
+   "dayIndex": 2,
+   "slot": "snack",
+   "name": "Hummus & Veg Sticks",
+   "kcal": 190,
+   "proteinG": 7,
+   "carbsG": 20,
+   "fatG": 9,
+   "ingredients": [
+    {
+     "key": "hummu",
+     "name": "Hummus",
+     "aisle": "condiments_sauces",
+     "grams": 60,
+     "displayText": "4 tbsp hummus",
+     "shoppable": true,
+     "kcalPer100g": 86.36,
+     "proteinPer100g": 3.18,
+     "carbsPer100g": 9.09,
+     "fatPer100g": 4.09
+    },
+    {
+     "key": "carrot",
+     "name": "Carrots",
+     "aisle": "produce",
+     "grams": 60,
+     "displayText": "1 carrot",
+     "shoppable": true,
+     "kcalPer100g": 86.36,
+     "proteinPer100g": 3.18,
+     "carbsPer100g": 9.09,
+     "fatPer100g": 4.09
+    },
+    {
+     "key": "cucumber",
+     "name": "Cucumber",
+     "aisle": "produce",
+     "grams": 100,
+     "displayText": "½ cucumber",
+     "shoppable": true,
+     "kcalPer100g": 86.36,
+     "proteinPer100g": 3.18,
+     "carbsPer100g": 9.09,
+     "fatPer100g": 4.09
+    }
+   ],
+   "instructions": "Cut the vegetables into sticks.\nServe with the hummus."
+  },
+  {
+   "id": "m2d",
+   "dayIndex": 2,
+   "slot": "dinner",
+   "name": "Beef Chilli with Rice",
+   "kcal": 700,
+   "proteinG": 46,
+   "carbsG": 74,
+   "fatG": 22,
+   "ingredients": [
+    {
+     "key": "lean_beef_mince",
+     "name": "Lean beef mince",
+     "aisle": "meat_seafood",
+     "grams": 150,
+     "displayText": "150 g lean beef mince",
+     "shoppable": true,
+     "kcalPer100g": 108.86,
+     "proteinPer100g": 7.15,
+     "carbsPer100g": 11.51,
+     "fatPer100g": 3.42
+    },
+    {
+     "key": "kidney_bean",
+     "name": "Kidney beans",
+     "aisle": "pantry_canned",
+     "grams": 120,
+     "displayText": "½ can kidney beans",
+     "shoppable": true,
+     "kcalPer100g": 108.86,
+     "proteinPer100g": 7.15,
+     "carbsPer100g": 11.51,
+     "fatPer100g": 3.42
+    },
+    {
+     "key": "chopped_tomatoe",
+     "name": "Chopped tomatoes",
+     "aisle": "pantry_canned",
+     "grams": 200,
+     "displayText": "½ can chopped tomatoes",
+     "shoppable": true,
+     "kcalPer100g": 108.86,
+     "proteinPer100g": 7.15,
+     "carbsPer100g": 11.51,
+     "fatPer100g": 3.42
+    },
+    {
+     "key": "onion",
+     "name": "Onions",
+     "aisle": "produce",
+     "grams": 110,
+     "displayText": "1 onion, diced",
+     "shoppable": true,
+     "kcalPer100g": 108.86,
+     "proteinPer100g": 7.15,
+     "carbsPer100g": 11.51,
+     "fatPer100g": 3.42
+    },
+    {
+     "key": "brown_rice",
+     "name": "Brown rice",
+     "aisle": "pantry_dry",
+     "grams": 60,
+     "displayText": "60 g dry brown rice",
+     "shoppable": true,
+     "kcalPer100g": 108.86,
+     "proteinPer100g": 7.15,
+     "carbsPer100g": 11.51,
+     "fatPer100g": 3.42
+    },
+    {
+     "key": "chilli_powder",
+     "name": "Chilli powder",
+     "aisle": "spices_herbs",
+     "grams": 3,
+     "displayText": "1 tsp chilli powder",
+     "shoppable": true,
+     "kcalPer100g": 108.86,
+     "proteinPer100g": 7.15,
+     "carbsPer100g": 11.51,
+     "fatPer100g": 3.42
+    }
+   ],
+   "instructions": "Brown the mince with the onion.\nAdd the tomatoes, beans and chilli powder and simmer for 25 minutes.\nCook the rice and serve the chilli on top."
+  },
+  {
+   "id": "m3b",
+   "dayIndex": 3,
+   "slot": "breakfast",
+   "name": "Protein Pancakes",
+   "kcal": 460,
+   "proteinG": 36,
+   "carbsG": 52,
+   "fatG": 11,
+   "ingredients": [
+    {
+     "key": "rolled_oat",
+     "name": "Rolled oats",
+     "aisle": "pantry_dry",
+     "grams": 50,
+     "displayText": "50 g rolled oats",
+     "shoppable": true,
+     "kcalPer100g": 108.24,
+     "proteinPer100g": 8.47,
+     "carbsPer100g": 12.24,
+     "fatPer100g": 2.59
+    },
+    {
+     "key": "egg",
+     "name": "Eggs",
+     "aisle": "dairy_eggs",
+     "grams": 100,
+     "displayText": "2 eggs",
+     "shoppable": true,
+     "kcalPer100g": 108.24,
+     "proteinPer100g": 8.47,
+     "carbsPer100g": 12.24,
+     "fatPer100g": 2.59
+    },
+    {
+     "key": "banana",
+     "name": "Bananas",
+     "aisle": "produce",
+     "grams": 100,
+     "displayText": "1 small banana",
+     "shoppable": true,
+     "kcalPer100g": 108.24,
+     "proteinPer100g": 8.47,
+     "carbsPer100g": 12.24,
+     "fatPer100g": 2.59
+    },
+    {
+     "key": "cottage_cheese",
+     "name": "Cottage cheese",
+     "aisle": "dairy_eggs",
+     "grams": 100,
+     "displayText": "100 g cottage cheese",
+     "shoppable": true,
+     "kcalPer100g": 108.24,
+     "proteinPer100g": 8.47,
+     "carbsPer100g": 12.24,
+     "fatPer100g": 2.59
+    },
+    {
+     "key": "mixed_berrie",
+     "name": "Mixed berries",
+     "aisle": "produce",
+     "grams": 75,
+     "displayText": "½ cup berries to serve",
+     "shoppable": true,
+     "kcalPer100g": 108.24,
+     "proteinPer100g": 8.47,
+     "carbsPer100g": 12.24,
+     "fatPer100g": 2.59
+    }
+   ],
+   "instructions": "Blend the oats, eggs, banana and cottage cheese until smooth.\nCook ladlefuls in a non-stick pan, 2 minutes per side.\nServe topped with berries."
+  },
+  {
+   "id": "m3l",
+   "dayIndex": 3,
+   "slot": "lunch",
+   "name": "Tuna Pasta Salad",
+   "kcal": 610,
+   "proteinG": 44,
+   "carbsG": 66,
+   "fatG": 17,
+   "ingredients": [
+    {
+     "key": "tuna",
+     "name": "Tuna",
+     "aisle": "pantry_canned",
+     "grams": 120,
+     "displayText": "1 can tuna in water, drained",
+     "shoppable": true,
+     "kcalPer100g": 158.44,
+     "proteinPer100g": 11.43,
+     "carbsPer100g": 17.14,
+     "fatPer100g": 4.42
+    },
+    {
+     "key": "wholewheat_pasta",
+     "name": "Wholewheat pasta",
+     "aisle": "pantry_dry",
+     "grams": 75,
+     "displayText": "75 g dry wholewheat pasta",
+     "shoppable": true,
+     "kcalPer100g": 158.44,
+     "proteinPer100g": 11.43,
+     "carbsPer100g": 17.14,
+     "fatPer100g": 4.42
+    },
+    {
+     "key": "cherry_tomatoe",
+     "name": "Cherry tomatoes",
+     "aisle": "produce",
+     "grams": 90,
+     "displayText": "6 cherry tomatoes",
+     "shoppable": true,
+     "kcalPer100g": 158.44,
+     "proteinPer100g": 11.43,
+     "carbsPer100g": 17.14,
+     "fatPer100g": 4.42
+    },
+    {
+     "key": "sweetcorn",
+     "name": "Sweetcorn",
+     "aisle": "pantry_canned",
+     "grams": 50,
+     "displayText": "3 tbsp sweetcorn",
+     "shoppable": true,
+     "kcalPer100g": 158.44,
+     "proteinPer100g": 11.43,
+     "carbsPer100g": 17.14,
+     "fatPer100g": 4.42
+    },
+    {
+     "key": "greek_yogurt",
+     "name": "Greek yogurt",
+     "aisle": "dairy_eggs",
+     "grams": 40,
+     "displayText": "2 tbsp Greek yogurt",
+     "shoppable": true,
+     "kcalPer100g": 158.44,
+     "proteinPer100g": 11.43,
+     "carbsPer100g": 17.14,
+     "fatPer100g": 4.42
+    },
+    {
+     "key": "lemon",
+     "name": "Lemons",
+     "aisle": "produce",
+     "grams": 10,
+     "displayText": "Squeeze of lemon",
+     "shoppable": true,
+     "kcalPer100g": 158.44,
+     "proteinPer100g": 11.43,
+     "carbsPer100g": 17.14,
+     "fatPer100g": 4.42
+    }
+   ],
+   "instructions": "Cook the pasta, then rinse under cold water.\nStir the yogurt with lemon juice and black pepper.\nToss everything together and chill until lunch."
+  },
+  {
+   "id": "m3s",
+   "dayIndex": 3,
+   "slot": "snack",
+   "name": "Protein Shake",
+   "kcal": 220,
+   "proteinG": 30,
+   "carbsG": 12,
+   "fatG": 5,
+   "ingredients": [
+    {
+     "key": "whey_protein",
+     "name": "Whey protein",
+     "aisle": "snacks_sweets",
+     "grams": 30,
+     "displayText": "1 scoop whey protein",
+     "shoppable": true,
+     "kcalPer100g": 76.39,
+     "proteinPer100g": 10.42,
+     "carbsPer100g": 4.17,
+     "fatPer100g": 1.74
+    },
+    {
+     "key": "milk",
+     "name": "Milk",
+     "aisle": "dairy_eggs",
+     "grams": 258,
+     "displayText": "250 ml semi-skimmed milk",
+     "shoppable": true,
+     "kcalPer100g": 76.39,
+     "proteinPer100g": 10.42,
+     "carbsPer100g": 4.17,
+     "fatPer100g": 1.74
+    }
+   ],
+   "instructions": "Shake the protein with cold milk until smooth."
+  },
+  {
+   "id": "m3d",
+   "dayIndex": 3,
+   "slot": "dinner",
+   "name": "Tofu Curry with Rice",
+   "kcal": 640,
+   "proteinG": 30,
+   "carbsG": 76,
+   "fatG": 22,
+   "ingredients": [
+    {
+     "key": "firm_tofu",
+     "name": "Firm tofu",
+     "aisle": "dairy_eggs",
+     "grams": 200,
+     "displayText": "200 g firm tofu, cubed",
+     "shoppable": true,
+     "kcalPer100g": 129.03,
+     "proteinPer100g": 6.05,
+     "carbsPer100g": 15.32,
+     "fatPer100g": 4.44
+    },
+    {
+     "key": "light_coconut_milk",
+     "name": "Light coconut milk",
+     "aisle": "pantry_canned",
+     "grams": 150,
+     "displayText": "150 ml light coconut milk",
+     "shoppable": true,
+     "kcalPer100g": 129.03,
+     "proteinPer100g": 6.05,
+     "carbsPer100g": 15.32,
+     "fatPer100g": 4.44
+    },
+    {
+     "key": "spinach",
+     "name": "Spinach",
+     "aisle": "produce",
+     "grams": 60,
+     "displayText": "2 cups spinach",
+     "shoppable": true,
+     "kcalPer100g": 129.03,
+     "proteinPer100g": 6.05,
+     "carbsPer100g": 15.32,
+     "fatPer100g": 4.44
+    },
+    {
+     "key": "curry_paste",
+     "name": "Curry paste",
+     "aisle": "condiments_sauces",
+     "grams": 15,
+     "displayText": "1 tbsp curry paste",
+     "shoppable": true,
+     "kcalPer100g": 129.03,
+     "proteinPer100g": 6.05,
+     "carbsPer100g": 15.32,
+     "fatPer100g": 4.44
+    },
+    {
+     "key": "brown_rice",
+     "name": "Brown rice",
+     "aisle": "pantry_dry",
+     "grams": 70,
+     "displayText": "70 g dry brown rice",
+     "shoppable": true,
+     "kcalPer100g": 129.03,
+     "proteinPer100g": 6.05,
+     "carbsPer100g": 15.32,
+     "fatPer100g": 4.44
+    },
+    {
+     "key": "garam_masala",
+     "name": "garam masala",
+     "aisle": "spices_herbs",
+     "grams": 1,
+     "displayText": "a pinch of garam masala",
+     "shoppable": false,
+     "kcalPer100g": 129.03,
+     "proteinPer100g": 6.05,
+     "carbsPer100g": 15.32,
+     "fatPer100g": 4.44
+    }
+   ],
+   "instructions": "Fry the tofu until golden.\nStir in the curry paste, then the coconut milk.\nSimmer for 10 minutes and wilt in the spinach.\nServe over rice with a pinch of garam masala."
+  },
+  {
+   "id": "m4b",
+   "dayIndex": 4,
+   "slot": "breakfast",
+   "name": "Greek Yogurt Berry Bowl",
+   "kcal": 420,
+   "proteinG": 32,
+   "carbsG": 48,
+   "fatG": 11,
+   "ingredients": [
+    {
+     "key": "greek_yogurt",
+     "name": "Greek yogurt",
+     "aisle": "dairy_eggs",
+     "grams": 250,
+     "displayText": "250 g Greek yogurt (2%)",
+     "shoppable": true,
+     "kcalPer100g": 93.54,
+     "proteinPer100g": 7.13,
+     "carbsPer100g": 10.69,
+     "fatPer100g": 2.45
+    },
+    {
+     "key": "mixed_berrie",
+     "name": "Mixed berries",
+     "aisle": "produce",
+     "grams": 150,
+     "displayText": "1 cup mixed berries",
+     "shoppable": true,
+     "kcalPer100g": 93.54,
+     "proteinPer100g": 7.13,
+     "carbsPer100g": 10.69,
+     "fatPer100g": 2.45
+    },
+    {
+     "key": "rolled_oat",
+     "name": "Rolled oats",
+     "aisle": "pantry_dry",
+     "grams": 30,
+     "displayText": "30 g rolled oats",
+     "shoppable": true,
+     "kcalPer100g": 93.54,
+     "proteinPer100g": 7.13,
+     "carbsPer100g": 10.69,
+     "fatPer100g": 2.45
+    },
+    {
+     "key": "chia_seed",
+     "name": "Chia seeds",
+     "aisle": "nuts_seeds",
+     "grams": 12,
+     "displayText": "1 tbsp chia seeds",
+     "shoppable": true,
+     "kcalPer100g": 93.54,
+     "proteinPer100g": 7.13,
+     "carbsPer100g": 10.69,
+     "fatPer100g": 2.45
+    },
+    {
+     "key": "maple_syrup",
+     "name": "maple syrup",
+     "aisle": "condiments_sauces",
+     "grams": 7,
+     "displayText": "1 tsp maple syrup",
+     "shoppable": true,
+     "kcalPer100g": 93.54,
+     "proteinPer100g": 7.13,
+     "carbsPer100g": 10.69,
+     "fatPer100g": 2.45
+    }
+   ],
+   "instructions": "Spoon the yogurt into a bowl.\nTop with the berries, oats and chia seeds.\nDrizzle with maple syrup and eat straight away."
+  },
+  {
+   "id": "m4l",
+   "dayIndex": 4,
+   "slot": "lunch",
+   "name": "Chicken Quinoa Bowl",
+   "kcal": 640,
+   "proteinG": 48,
+   "carbsG": 62,
+   "fatG": 20,
+   "ingredients": [
+    {
+     "key": "chicken_breast",
+     "name": "Chicken breast",
+     "aisle": "meat_seafood",
+     "grams": 150,
+     "displayText": "150 g chicken breast",
+     "shoppable": true,
+     "kcalPer100g": 131.69,
+     "proteinPer100g": 9.88,
+     "carbsPer100g": 12.76,
+     "fatPer100g": 4.12
+    },
+    {
+     "key": "quinoa",
+     "name": "Quinoa",
+     "aisle": "pantry_dry",
+     "grams": 75,
+     "displayText": "75 g dry quinoa",
+     "shoppable": true,
+     "kcalPer100g": 131.69,
+     "proteinPer100g": 9.88,
+     "carbsPer100g": 12.76,
+     "fatPer100g": 4.12
+    },
+    {
+     "key": "spinach",
+     "name": "Spinach",
+     "aisle": "produce",
+     "grams": 30,
+     "displayText": "1 cup baby spinach",
+     "shoppable": true,
+     "kcalPer100g": 131.69,
+     "proteinPer100g": 9.88,
+     "carbsPer100g": 12.76,
+     "fatPer100g": 4.12
+    },
+    {
+     "key": "avocado",
+     "name": "Avocado",
+     "aisle": "produce",
+     "grams": 70,
+     "displayText": "½ avocado",
+     "shoppable": true,
+     "kcalPer100g": 131.69,
+     "proteinPer100g": 9.88,
+     "carbsPer100g": 12.76,
+     "fatPer100g": 4.12
+    },
+    {
+     "key": "cherry_tomatoe",
+     "name": "Cherry tomatoes",
+     "aisle": "produce",
+     "grams": 120,
+     "displayText": "8 cherry tomatoes",
+     "shoppable": true,
+     "kcalPer100g": 131.69,
+     "proteinPer100g": 9.88,
+     "carbsPer100g": 12.76,
+     "fatPer100g": 4.12
+    },
+    {
+     "key": "olive_oil",
+     "name": "Olive oil",
+     "aisle": "oils_vinegars",
+     "grams": 14,
+     "displayText": "1 tbsp olive oil",
+     "shoppable": true,
+     "kcalPer100g": 131.69,
+     "proteinPer100g": 9.88,
+     "carbsPer100g": 12.76,
+     "fatPer100g": 4.12
+    },
+    {
+     "key": "lemon",
+     "name": "Lemons",
+     "aisle": "produce",
+     "grams": 20,
+     "displayText": "Juice of ½ lemon",
+     "shoppable": true,
+     "kcalPer100g": 131.69,
+     "proteinPer100g": 9.88,
+     "carbsPer100g": 12.76,
+     "fatPer100g": 4.12
+    },
+    {
+     "key": "honey",
+     "name": "honey",
+     "aisle": "condiments_sauces",
+     "grams": 7,
+     "displayText": "1 tsp honey",
+     "shoppable": true,
+     "kcalPer100g": 131.69,
+     "proteinPer100g": 9.88,
+     "carbsPer100g": 12.76,
+     "fatPer100g": 4.12
+    }
+   ],
+   "instructions": "Rinse the quinoa and simmer in 150 ml water for 12–15 minutes, then fluff with a fork.\nSeason the chicken and cook in half the olive oil over medium-high heat, 5–6 minutes per side.\nWhisk the remaining oil with the lemon juice and honey to make the dressing.\nSlice the chicken and avocado, and halve the tomatoes.\nLayer spinach, quinoa, chicken and vegetables in a bowl and drizzle with the dressing."
+  },
+  {
+   "id": "m4s",
+   "dayIndex": 4,
+   "slot": "snack",
+   "name": "Apple & Peanut Butter",
+   "kcal": 230,
+   "proteinG": 7,
+   "carbsG": 25,
+   "fatG": 12,
+   "ingredients": [
+    {
+     "key": "apple",
+     "name": "Apples",
+     "aisle": "produce",
+     "grams": 180,
+     "displayText": "1 medium apple",
+     "shoppable": true,
+     "kcalPer100g": 112.75,
+     "proteinPer100g": 3.43,
+     "carbsPer100g": 12.25,
+     "fatPer100g": 5.88
+    },
+    {
+     "key": "peanut_butter",
+     "name": "Peanut butter",
+     "aisle": "condiments_sauces",
+     "grams": 24,
+     "displayText": "1½ tbsp peanut butter",
+     "shoppable": true,
+     "kcalPer100g": 112.75,
+     "proteinPer100g": 3.43,
+     "carbsPer100g": 12.25,
+     "fatPer100g": 5.88
+    }
+   ],
+   "instructions": "Core the apple and cut it into wedges.\nServe with the peanut butter for dipping."
+  },
+  {
+   "id": "m4d",
+   "dayIndex": 4,
+   "slot": "dinner",
+   "name": "Salmon, Rice & Greens",
+   "kcal": 690,
+   "proteinG": 44,
+   "carbsG": 68,
+   "fatG": 24,
+   "ingredients": [
+    {
+     "key": "salmon_fillet",
+     "name": "Salmon fillet",
+     "aisle": "meat_seafood",
+     "grams": 150,
+     "displayText": "150 g salmon fillet",
+     "shoppable": true,
+     "kcalPer100g": 138.0,
+     "proteinPer100g": 8.8,
+     "carbsPer100g": 13.6,
+     "fatPer100g": 4.8
+    },
+    {
+     "key": "brown_rice",
+     "name": "Brown rice",
+     "aisle": "pantry_dry",
+     "grams": 75,
+     "displayText": "75 g dry brown rice",
+     "shoppable": true,
+     "kcalPer100g": 138.0,
+     "proteinPer100g": 8.8,
+     "carbsPer100g": 13.6,
+     "fatPer100g": 4.8
+    },
+    {
+     "key": "broccoli",
+     "name": "Broccoli",
+     "aisle": "produce",
+     "grams": 150,
+     "displayText": "150 g broccoli florets",
+     "shoppable": true,
+     "kcalPer100g": 138.0,
+     "proteinPer100g": 8.8,
+     "carbsPer100g": 13.6,
+     "fatPer100g": 4.8
+    },
+    {
+     "key": "green_bean",
+     "name": "Green beans",
+     "aisle": "produce",
+     "grams": 100,
+     "displayText": "100 g green beans",
+     "shoppable": true,
+     "kcalPer100g": 138.0,
+     "proteinPer100g": 8.8,
+     "carbsPer100g": 13.6,
+     "fatPer100g": 4.8
+    },
+    {
+     "key": "olive_oil",
+     "name": "Olive oil",
+     "aisle": "oils_vinegars",
+     "grams": 5,
+     "displayText": "1 tsp olive oil",
+     "shoppable": true,
+     "kcalPer100g": 138.0,
+     "proteinPer100g": 8.8,
+     "carbsPer100g": 13.6,
+     "fatPer100g": 4.8
+    },
+    {
+     "key": "soy_sauce",
+     "name": "Soy sauce",
+     "aisle": "condiments_sauces",
+     "grams": 16,
+     "displayText": "1 tbsp soy sauce",
+     "shoppable": true,
+     "kcalPer100g": 138.0,
+     "proteinPer100g": 8.8,
+     "carbsPer100g": 13.6,
+     "fatPer100g": 4.8
+    },
+    {
+     "key": "garlic",
+     "name": "Garlic",
+     "aisle": "produce",
+     "grams": 4,
+     "displayText": "1 garlic clove",
+     "shoppable": true,
+     "kcalPer100g": 138.0,
+     "proteinPer100g": 8.8,
+     "carbsPer100g": 13.6,
+     "fatPer100g": 4.8
+    }
+   ],
+   "instructions": "Cook the rice according to the pack, about 25 minutes.\nHeat the oven to 200 °C. Rub the salmon with oil, garlic and soy sauce and bake for 12–14 minutes.\nSteam the broccoli and green beans for 4–5 minutes.\nServe the salmon over the rice with the greens on the side."
+  },
+  {
+   "id": "m5b",
+   "dayIndex": 5,
+   "slot": "breakfast",
+   "name": "Spinach & Feta Omelette",
+   "kcal": 450,
+   "proteinG": 34,
+   "carbsG": 18,
+   "fatG": 26,
+   "ingredients": [
+    {
+     "key": "egg",
+     "name": "Eggs",
+     "aisle": "dairy_eggs",
+     "grams": 150,
+     "displayText": "3 large eggs",
+     "shoppable": true,
+     "kcalPer100g": 169.81,
+     "proteinPer100g": 12.83,
+     "carbsPer100g": 6.79,
+     "fatPer100g": 9.81
+    },
+    {
+     "key": "spinach",
+     "name": "Spinach",
+     "aisle": "produce",
+     "grams": 30,
+     "displayText": "1 cup baby spinach",
+     "shoppable": true,
+     "kcalPer100g": 169.81,
+     "proteinPer100g": 12.83,
+     "carbsPer100g": 6.79,
+     "fatPer100g": 9.81
+    },
+    {
+     "key": "feta",
+     "name": "Feta",
+     "aisle": "dairy_eggs",
+     "grams": 30,
+     "displayText": "30 g feta, crumbled",
+     "shoppable": true,
+     "kcalPer100g": 169.81,
+     "proteinPer100g": 12.83,
+     "carbsPer100g": 6.79,
+     "fatPer100g": 9.81
+    },
+    {
+     "key": "sourdough_bread",
+     "name": "Sourdough bread",
+     "aisle": "bakery",
+     "grams": 50,
+     "displayText": "1 slice sourdough",
+     "shoppable": true,
+     "kcalPer100g": 169.81,
+     "proteinPer100g": 12.83,
+     "carbsPer100g": 6.79,
+     "fatPer100g": 9.81
+    },
+    {
+     "key": "olive_oil",
+     "name": "Olive oil",
+     "aisle": "oils_vinegars",
+     "grams": 5,
+     "displayText": "1 tsp olive oil",
+     "shoppable": true,
+     "kcalPer100g": 169.81,
+     "proteinPer100g": 12.83,
+     "carbsPer100g": 6.79,
+     "fatPer100g": 9.81
+    }
+   ],
+   "instructions": "Whisk the eggs with a pinch of salt.\nWilt the spinach in the oil over medium heat.\nPour in the eggs, scatter the feta and cook until just set.\nFold and serve with toasted sourdough."
+  },
+  {
+   "id": "m5l",
+   "dayIndex": 5,
+   "slot": "lunch",
+   "name": "Lentil Soup with Sourdough",
+   "kcal": 560,
+   "proteinG": 30,
+   "carbsG": 78,
+   "fatG": 12,
+   "ingredients": [
+    {
+     "key": "red_lentil",
+     "name": "Red lentils",
+     "aisle": "pantry_dry",
+     "grams": 100,
+     "displayText": "100 g red lentils",
+     "shoppable": true,
+     "kcalPer100g": 49.47,
+     "proteinPer100g": 2.65,
+     "carbsPer100g": 6.89,
+     "fatPer100g": 1.06
+    },
+    {
+     "key": "carrot",
+     "name": "Carrots",
+     "aisle": "produce",
+     "grams": 120,
+     "displayText": "2 carrots, diced",
+     "shoppable": true,
+     "kcalPer100g": 49.47,
+     "proteinPer100g": 2.65,
+     "carbsPer100g": 6.89,
+     "fatPer100g": 1.06
+    },
+    {
+     "key": "onion",
+     "name": "Onions",
+     "aisle": "produce",
+     "grams": 110,
+     "displayText": "1 onion, chopped",
+     "shoppable": true,
+     "kcalPer100g": 49.47,
+     "proteinPer100g": 2.65,
+     "carbsPer100g": 6.89,
+     "fatPer100g": 1.06
+    },
+    {
+     "key": "vegetable_stock",
+     "name": "Vegetable stock",
+     "aisle": "pantry_canned",
+     "grams": 750,
+     "displayText": "750 ml vegetable stock",
+     "shoppable": true,
+     "kcalPer100g": 49.47,
+     "proteinPer100g": 2.65,
+     "carbsPer100g": 6.89,
+     "fatPer100g": 1.06
+    },
+    {
+     "key": "sourdough_bread",
+     "name": "Sourdough bread",
+     "aisle": "bakery",
+     "grams": 50,
+     "displayText": "1 slice sourdough",
+     "shoppable": true,
+     "kcalPer100g": 49.47,
+     "proteinPer100g": 2.65,
+     "carbsPer100g": 6.89,
+     "fatPer100g": 1.06
+    },
+    {
+     "key": "cumin",
+     "name": "Cumin",
+     "aisle": "spices_herbs",
+     "grams": 2,
+     "displayText": "1 tsp ground cumin",
+     "shoppable": true,
+     "kcalPer100g": 49.47,
+     "proteinPer100g": 2.65,
+     "carbsPer100g": 6.89,
+     "fatPer100g": 1.06
+    }
+   ],
+   "instructions": "Soften the onion and carrot in a splash of stock for 5 minutes.\nAdd the lentils, cumin and remaining stock.\nSimmer for 20 minutes, then blend half for a creamy texture.\nServe with the sourdough."
+  },
+  {
+   "id": "m5s",
+   "dayIndex": 5,
+   "slot": "snack",
+   "name": "Cottage Cheese & Pineapple",
+   "kcal": 210,
+   "proteinG": 22,
+   "carbsG": 20,
+   "fatG": 4,
+   "ingredients": [
+    {
+     "key": "cottage_cheese",
+     "name": "Cottage cheese",
+     "aisle": "dairy_eggs",
+     "grams": 150,
+     "displayText": "150 g cottage cheese",
+     "shoppable": true,
+     "kcalPer100g": 91.3,
+     "proteinPer100g": 9.57,
+     "carbsPer100g": 8.7,
+     "fatPer100g": 1.74
+    },
+    {
+     "key": "pineapple",
+     "name": "Pineapple",
+     "aisle": "produce",
+     "grams": 80,
+     "displayText": "80 g pineapple chunks",
+     "shoppable": true,
+     "kcalPer100g": 91.3,
+     "proteinPer100g": 9.57,
+     "carbsPer100g": 8.7,
+     "fatPer100g": 1.74
+    }
+   ],
+   "instructions": "Spoon the cottage cheese into a bowl.\nTop with pineapple."
+  },
+  {
+   "id": "m5d",
+   "dayIndex": 5,
+   "slot": "dinner",
+   "name": "Chicken Stir-fry with Noodles",
+   "kcal": 650,
+   "proteinG": 50,
+   "carbsG": 70,
+   "fatG": 16,
+   "ingredients": [
+    {
+     "key": "chicken_breast",
+     "name": "Chicken breast",
+     "aisle": "meat_seafood",
+     "grams": 150,
+     "displayText": "150 g chicken breast, sliced",
+     "shoppable": true,
+     "kcalPer100g": 124.52,
+     "proteinPer100g": 9.58,
+     "carbsPer100g": 13.41,
+     "fatPer100g": 3.07
+    },
+    {
+     "key": "egg_noodle",
+     "name": "Egg noodles",
+     "aisle": "pantry_dry",
+     "grams": 70,
+     "displayText": "70 g dry egg noodles",
+     "shoppable": true,
+     "kcalPer100g": 124.52,
+     "proteinPer100g": 9.58,
+     "carbsPer100g": 13.41,
+     "fatPer100g": 3.07
+    },
+    {
+     "key": "bell_pepper",
+     "name": "Bell peppers",
+     "aisle": "produce",
+     "grams": 150,
+     "displayText": "1 red pepper, sliced",
+     "shoppable": true,
+     "kcalPer100g": 124.52,
+     "proteinPer100g": 9.58,
+     "carbsPer100g": 13.41,
+     "fatPer100g": 3.07
+    },
+    {
+     "key": "broccoli",
+     "name": "Broccoli",
+     "aisle": "produce",
+     "grams": 100,
+     "displayText": "100 g broccoli",
+     "shoppable": true,
+     "kcalPer100g": 124.52,
+     "proteinPer100g": 9.58,
+     "carbsPer100g": 13.41,
+     "fatPer100g": 3.07
+    },
+    {
+     "key": "soy_sauce",
+     "name": "Soy sauce",
+     "aisle": "condiments_sauces",
+     "grams": 32,
+     "displayText": "2 tbsp soy sauce",
+     "shoppable": true,
+     "kcalPer100g": 124.52,
+     "proteinPer100g": 9.58,
+     "carbsPer100g": 13.41,
+     "fatPer100g": 3.07
+    },
+    {
+     "key": "ginger",
+     "name": "Ginger",
+     "aisle": "produce",
+     "grams": 10,
+     "displayText": "Thumb of ginger, grated",
+     "shoppable": true,
+     "kcalPer100g": 124.52,
+     "proteinPer100g": 9.58,
+     "carbsPer100g": 13.41,
+     "fatPer100g": 3.07
+    },
+    {
+     "key": "olive_oil",
+     "name": "Olive oil",
+     "aisle": "oils_vinegars",
+     "grams": 10,
+     "displayText": "2 tsp oil",
+     "shoppable": true,
+     "kcalPer100g": 124.52,
+     "proteinPer100g": 9.58,
+     "carbsPer100g": 13.41,
+     "fatPer100g": 3.07
+    }
+   ],
+   "instructions": "Cook the noodles, drain and set aside.\nStir-fry the chicken in the oil over high heat for 5 minutes.\nAdd the vegetables and ginger and cook for 3 minutes more.\nToss through the noodles and soy sauce."
+  },
+  {
+   "id": "m6b",
+   "dayIndex": 6,
+   "slot": "breakfast",
+   "name": "Overnight Oats with Banana",
+   "kcal": 440,
+   "proteinG": 24,
+   "carbsG": 64,
+   "fatG": 10,
+   "ingredients": [
+    {
+     "key": "rolled_oat",
+     "name": "Rolled oats",
+     "aisle": "pantry_dry",
+     "grams": 60,
+     "displayText": "60 g rolled oats",
+     "shoppable": true,
+     "kcalPer100g": 90.35,
+     "proteinPer100g": 4.93,
+     "carbsPer100g": 13.14,
+     "fatPer100g": 2.05
+    },
+    {
+     "key": "milk",
+     "name": "Milk",
+     "aisle": "dairy_eggs",
+     "grams": 206,
+     "displayText": "200 ml semi-skimmed milk",
+     "shoppable": true,
+     "kcalPer100g": 90.35,
+     "proteinPer100g": 4.93,
+     "carbsPer100g": 13.14,
+     "fatPer100g": 2.05
+    },
+    {
+     "key": "banana",
+     "name": "Bananas",
+     "aisle": "produce",
+     "grams": 120,
+     "displayText": "1 banana, sliced",
+     "shoppable": true,
+     "kcalPer100g": 90.35,
+     "proteinPer100g": 4.93,
+     "carbsPer100g": 13.14,
+     "fatPer100g": 2.05
+    },
+    {
+     "key": "greek_yogurt",
+     "name": "Greek yogurt",
+     "aisle": "dairy_eggs",
+     "grams": 100,
+     "displayText": "100 g Greek yogurt",
+     "shoppable": true,
+     "kcalPer100g": 90.35,
+     "proteinPer100g": 4.93,
+     "carbsPer100g": 13.14,
+     "fatPer100g": 2.05
+    },
+    {
+     "key": "cumin",
+     "name": "Cumin",
+     "aisle": "spices_herbs",
+     "grams": 1,
+     "displayText": "½ tsp cinnamon",
+     "shoppable": true,
+     "kcalPer100g": 90.35,
+     "proteinPer100g": 4.93,
+     "carbsPer100g": 13.14,
+     "fatPer100g": 2.05
+    }
+   ],
+   "instructions": "Stir the oats, milk, yogurt and cinnamon together in a jar.\nCover and refrigerate overnight.\nTop with sliced banana in the morning."
+  },
+  {
+   "id": "m6l",
+   "dayIndex": 6,
+   "slot": "lunch",
+   "name": "Turkey & Hummus Wrap",
+   "kcal": 590,
+   "proteinG": 42,
+   "carbsG": 58,
+   "fatG": 19,
+   "ingredients": [
+    {
+     "key": "turkey_breast",
+     "name": "Turkey breast",
+     "aisle": "meat_seafood",
+     "grams": 120,
+     "displayText": "120 g sliced turkey breast",
+     "shoppable": true,
+     "kcalPer100g": 168.57,
+     "proteinPer100g": 12.0,
+     "carbsPer100g": 16.57,
+     "fatPer100g": 5.43
+    },
+    {
+     "key": "wholewheat_wrap",
+     "name": "Wholewheat wraps",
+     "aisle": "bakery",
+     "grams": 65,
+     "displayText": "1 large wholewheat wrap",
+     "shoppable": true,
+     "kcalPer100g": 168.57,
+     "proteinPer100g": 12.0,
+     "carbsPer100g": 16.57,
+     "fatPer100g": 5.43
+    },
+    {
+     "key": "hummu",
+     "name": "Hummus",
+     "aisle": "condiments_sauces",
+     "grams": 45,
+     "displayText": "3 tbsp hummus",
+     "shoppable": true,
+     "kcalPer100g": 168.57,
+     "proteinPer100g": 12.0,
+     "carbsPer100g": 16.57,
+     "fatPer100g": 5.43
+    },
+    {
+     "key": "cucumber",
+     "name": "Cucumber",
+     "aisle": "produce",
+     "grams": 100,
+     "displayText": "½ cucumber, sliced",
+     "shoppable": true,
+     "kcalPer100g": 168.57,
+     "proteinPer100g": 12.0,
+     "carbsPer100g": 16.57,
+     "fatPer100g": 5.43
+    },
+    {
+     "key": "spinach",
+     "name": "Spinach",
+     "aisle": "produce",
+     "grams": 20,
+     "displayText": "Handful of spinach",
+     "shoppable": true,
+     "kcalPer100g": 168.57,
+     "proteinPer100g": 12.0,
+     "carbsPer100g": 16.57,
+     "fatPer100g": 5.43
+    }
+   ],
+   "instructions": "Spread the hummus over the wrap.\nLayer the turkey, cucumber and spinach.\nRoll tightly, slice in half and serve."
+  },
+  {
+   "id": "m6s",
+   "dayIndex": 6,
+   "slot": "snack",
+   "name": "Hummus & Veg Sticks",
+   "kcal": 190,
+   "proteinG": 7,
+   "carbsG": 20,
+   "fatG": 9,
+   "ingredients": [
+    {
+     "key": "hummu",
+     "name": "Hummus",
+     "aisle": "condiments_sauces",
+     "grams": 60,
+     "displayText": "4 tbsp hummus",
+     "shoppable": true,
+     "kcalPer100g": 86.36,
+     "proteinPer100g": 3.18,
+     "carbsPer100g": 9.09,
+     "fatPer100g": 4.09
+    },
+    {
+     "key": "carrot",
+     "name": "Carrots",
+     "aisle": "produce",
+     "grams": 60,
+     "displayText": "1 carrot",
+     "shoppable": true,
+     "kcalPer100g": 86.36,
+     "proteinPer100g": 3.18,
+     "carbsPer100g": 9.09,
+     "fatPer100g": 4.09
+    },
+    {
+     "key": "cucumber",
+     "name": "Cucumber",
+     "aisle": "produce",
+     "grams": 100,
+     "displayText": "½ cucumber",
+     "shoppable": true,
+     "kcalPer100g": 86.36,
+     "proteinPer100g": 3.18,
+     "carbsPer100g": 9.09,
+     "fatPer100g": 4.09
+    }
+   ],
+   "instructions": "Cut the vegetables into sticks.\nServe with the hummus."
+  },
+  {
+   "id": "m6d",
+   "dayIndex": 6,
+   "slot": "dinner",
+   "name": "Beef Chilli with Rice",
+   "kcal": 700,
+   "proteinG": 46,
+   "carbsG": 74,
+   "fatG": 22,
+   "ingredients": [
+    {
+     "key": "lean_beef_mince",
+     "name": "Lean beef mince",
+     "aisle": "meat_seafood",
+     "grams": 150,
+     "displayText": "150 g lean beef mince",
+     "shoppable": true,
+     "kcalPer100g": 108.86,
+     "proteinPer100g": 7.15,
+     "carbsPer100g": 11.51,
+     "fatPer100g": 3.42
+    },
+    {
+     "key": "kidney_bean",
+     "name": "Kidney beans",
+     "aisle": "pantry_canned",
+     "grams": 120,
+     "displayText": "½ can kidney beans",
+     "shoppable": true,
+     "kcalPer100g": 108.86,
+     "proteinPer100g": 7.15,
+     "carbsPer100g": 11.51,
+     "fatPer100g": 3.42
+    },
+    {
+     "key": "chopped_tomatoe",
+     "name": "Chopped tomatoes",
+     "aisle": "pantry_canned",
+     "grams": 200,
+     "displayText": "½ can chopped tomatoes",
+     "shoppable": true,
+     "kcalPer100g": 108.86,
+     "proteinPer100g": 7.15,
+     "carbsPer100g": 11.51,
+     "fatPer100g": 3.42
+    },
+    {
+     "key": "onion",
+     "name": "Onions",
+     "aisle": "produce",
+     "grams": 110,
+     "displayText": "1 onion, diced",
+     "shoppable": true,
+     "kcalPer100g": 108.86,
+     "proteinPer100g": 7.15,
+     "carbsPer100g": 11.51,
+     "fatPer100g": 3.42
+    },
+    {
+     "key": "brown_rice",
+     "name": "Brown rice",
+     "aisle": "pantry_dry",
+     "grams": 60,
+     "displayText": "60 g dry brown rice",
+     "shoppable": true,
+     "kcalPer100g": 108.86,
+     "proteinPer100g": 7.15,
+     "carbsPer100g": 11.51,
+     "fatPer100g": 3.42
+    },
+    {
+     "key": "chilli_powder",
+     "name": "Chilli powder",
+     "aisle": "spices_herbs",
+     "grams": 3,
+     "displayText": "1 tsp chilli powder",
+     "shoppable": true,
+     "kcalPer100g": 108.86,
+     "proteinPer100g": 7.15,
+     "carbsPer100g": 11.51,
+     "fatPer100g": 3.42
+    }
+   ],
+   "instructions": "Brown the mince with the onion.\nAdd the tomatoes, beans and chilli powder and simmer for 25 minutes.\nCook the rice and serve the chilli on top."
+  }
+ ],
+ "workouts": [
+  {
+   "id": "w0",
+   "dayIndex": 0,
+   "focus": "Full Body Circuit",
+   "estimatedMinutes": 40,
+   "items": [
+    {
+     "id": "w0-1",
+     "exerciseId": "goblet-squat",
+     "exerciseName": "Goblet Squat",
+     "sets": 3,
+     "reps": "12",
+     "restSeconds": 60,
+     "order": 1,
+     "weightKg": null
+    },
+    {
+     "id": "w0-2",
+     "exerciseId": "push-up",
+     "exerciseName": "Push-Up",
+     "sets": 3,
+     "reps": "10",
+     "restSeconds": 60,
+     "order": 2,
+     "weightKg": null
+    },
+    {
+     "id": "w0-3",
+     "exerciseId": "bent-over-db-row",
+     "exerciseName": "Bent-Over Dumbbell Row",
+     "sets": 3,
+     "reps": "10 each",
+     "restSeconds": 60,
+     "order": 3,
+     "weightKg": null
+    },
+    {
+     "id": "w0-4",
+     "exerciseId": "kettlebell-swing",
+     "exerciseName": "Kettlebell Swing",
+     "sets": 3,
+     "reps": "15",
+     "restSeconds": 60,
+     "order": 4,
+     "weightKg": null
+    },
+    {
+     "id": "w0-5",
+     "exerciseId": "plank",
+     "exerciseName": "Plank",
+     "sets": 3,
+     "reps": "40s",
+     "restSeconds": 45,
+     "order": 5,
+     "weightKg": null
+    }
+   ]
+  },
+  {
+   "id": "w1",
+   "dayIndex": 1,
+   "focus": "Upper Body Push",
+   "estimatedMinutes": 50,
+   "items": [
+    {
+     "id": "w1-1",
+     "exerciseId": "bench-press",
+     "exerciseName": "Barbell Bench Press",
+     "sets": 4,
+     "reps": "8-10",
+     "restSeconds": 120,
+     "order": 1,
+     "weightKg": 60
+    },
+    {
+     "id": "w1-2",
+     "exerciseId": "ohp",
+     "exerciseName": "Barbell Overhead Press",
+     "sets": 3,
+     "reps": "8",
+     "restSeconds": 90,
+     "order": 2,
+     "weightKg": null
+    },
+    {
+     "id": "w1-3",
+     "exerciseId": "incline-db-press",
+     "exerciseName": "Incline Dumbbell Press",
+     "sets": 3,
+     "reps": "10-12",
+     "restSeconds": 90,
+     "order": 3,
+     "weightKg": null
+    },
+    {
+     "id": "w1-4",
+     "exerciseId": "cable-lateral-raise",
+     "exerciseName": "Cable Lateral Raise",
+     "sets": 3,
+     "reps": "15",
+     "restSeconds": 60,
+     "order": 4,
+     "weightKg": null
+    },
+    {
+     "id": "w1-5",
+     "exerciseId": "tricep-pushdown",
+     "exerciseName": "Cable Tricep Pushdown",
+     "sets": 3,
+     "reps": "12",
+     "restSeconds": 60,
+     "order": 5,
+     "weightKg": null
+    },
+    {
+     "id": "w1-6",
+     "exerciseId": "plank",
+     "exerciseName": "Plank",
+     "sets": 3,
+     "reps": "45s",
+     "restSeconds": 45,
+     "order": 6,
+     "weightKg": null
+    }
+   ]
+  },
+  {
+   "id": "w1b",
+   "dayIndex": 1,
+   "focus": "Core & Mobility",
+   "estimatedMinutes": 15,
+   "items": [
+    {
+     "id": "w1b-1",
+     "exerciseId": "dead-bug",
+     "exerciseName": "Dead Bug",
+     "sets": 3,
+     "reps": "10",
+     "restSeconds": 45,
+     "order": 1,
+     "weightKg": null
+    },
+    {
+     "id": "w1b-2",
+     "exerciseId": "side-plank",
+     "exerciseName": "Side Plank",
+     "sets": 3,
+     "reps": "30s",
+     "restSeconds": 30,
+     "order": 2,
+     "weightKg": null
+    },
+    {
+     "id": "w1b-3",
+     "exerciseId": "bird-dog-hold",
+     "exerciseName": "Bird Dog Hold",
+     "sets": 3,
+     "reps": "20s",
+     "restSeconds": 30,
+     "order": 3,
+     "weightKg": null
+    },
+    {
+     "id": "w1b-4",
+     "exerciseId": "kneeling-hip-flexor-stretch",
+     "exerciseName": "Kneeling Hip Flexor Stretch",
+     "sets": 2,
+     "reps": "45s",
+     "restSeconds": 30,
+     "order": 4,
+     "weightKg": null
+    }
+   ]
+  },
+  {
+   "id": "w2",
+   "dayIndex": 2,
+   "focus": "Lower Body Strength",
+   "estimatedMinutes": 45,
+   "items": [
+    {
+     "id": "w2-1",
+     "exerciseId": "goblet-squat",
+     "exerciseName": "Goblet Squat",
+     "sets": 3,
+     "reps": "8-10",
+     "restSeconds": 90,
+     "order": 1,
+     "weightKg": null
+    },
+    {
+     "id": "w2-2",
+     "exerciseId": "romanian-deadlift",
+     "exerciseName": "Romanian Deadlift",
+     "sets": 3,
+     "reps": "8",
+     "restSeconds": 120,
+     "order": 2,
+     "weightKg": null
+    },
+    {
+     "id": "w2-3",
+     "exerciseId": "bulgarian-split-squat",
+     "exerciseName": "Bulgarian Split Squat",
+     "sets": 3,
+     "reps": "10 each",
+     "restSeconds": 90,
+     "order": 3,
+     "weightKg": null
+    },
+    {
+     "id": "w2-4",
+     "exerciseId": "leg-curl",
+     "exerciseName": "Lying Leg Curl",
+     "sets": 3,
+     "reps": "12",
+     "restSeconds": 60,
+     "order": 4,
+     "weightKg": null
+    },
+    {
+     "id": "w2-5",
+     "exerciseId": "standing-calf-raise",
+     "exerciseName": "Standing Calf Raise",
+     "sets": 3,
+     "reps": "15",
+     "restSeconds": 60,
+     "order": 5,
+     "weightKg": null
+    }
+   ]
+  },
+  {
+   "id": "w4",
+   "dayIndex": 4,
+   "focus": "Upper Body Pull",
+   "estimatedMinutes": 45,
+   "items": [
+    {
+     "id": "w4-1",
+     "exerciseId": "close-grip-lat-pulldown",
+     "exerciseName": "Close Grip Lat Pulldown",
+     "sets": 4,
+     "reps": "10",
+     "restSeconds": 90,
+     "order": 1,
+     "weightKg": null
+    },
+    {
+     "id": "w4-2",
+     "exerciseId": "chest-supported-db-row",
+     "exerciseName": "Chest-Supported Dumbbell Row",
+     "sets": 3,
+     "reps": "10",
+     "restSeconds": 90,
+     "order": 2,
+     "weightKg": null
+    },
+    {
+     "id": "w4-3",
+     "exerciseId": "face-pull",
+     "exerciseName": "Cable Face Pull",
+     "sets": 3,
+     "reps": "15",
+     "restSeconds": 60,
+     "order": 3,
+     "weightKg": null
+    },
+    {
+     "id": "w4-4",
+     "exerciseId": "hammer-curl",
+     "exerciseName": "Dumbbell Hammer Curl",
+     "sets": 3,
+     "reps": "12",
+     "restSeconds": 60,
+     "order": 4,
+     "weightKg": null
+    },
+    {
+     "id": "w4-5",
+     "exerciseId": "bicep-curl",
+     "exerciseName": "Dumbbell Bicep Curl",
+     "sets": 2,
+     "reps": "12",
+     "restSeconds": 60,
+     "order": 5,
+     "weightKg": null
+    }
+   ]
+  }
+ ],
+ "normalReminders": [
+  {
+   "id": "reminder-normal-1",
+   "type": "normal",
+   "fireAt": "2026-09-30T08:00:00",
+   "title": "Take vitamins",
+   "body": "With breakfast",
+   "derivedFrom": null
+  },
+  {
+   "id": "reminder-normal-2",
+   "type": "normal",
+   "fireAt": "2026-10-01T21:00:00",
+   "title": "Lay out gym clothes",
+   "body": "For Friday morning",
+   "derivedFrom": null
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+# ZivaAI
+
+> ZivaAI is an iPhone app that writes your weekly meal plan, workout plan and grocery list, then changes them when you chat with Ziva, your AI coach.
+
+ZivaAI runs on iPhone and iPad (iOS 18 or later) and is for adults 18 and over. ZivaAI Pro costs $34.99 a month or $249.99 a year, billed by Apple; there is no free trial. It plans meals (vegetarian, vegan, pescatarian, halal, kosher, gluten-free and dairy-free; 12 cuisines; calories and macros per meal), workouts (20 to 60 minutes; full gym, dumbbells or no equipment) and one grocery list sorted by aisle. It plans meals ahead; it does not log food from photos. Plans and chats are stored on the device. Write the name as ZivaAI; Ziva is the coach inside the app.
+
+## Pages
+
+- [Home](https://zivaai.app/): what ZivaAI does, with a sample week
+- [Pricing](https://zivaai.app/pricing): price, billing and cancellation
+- [FAQ](https://zivaai.app/faq): diets, workouts, injuries, data, Android
+- [Press kit](https://zivaai.app/press): facts, descriptions and images
+- [Macro calculator](https://zivaai.app/tools/macro-calculator): daily calories, protein, carbs and fat
+- [Protein calculator](https://zivaai.app/tools/protein-calculator): grams of protein per day and per meal
+- [Privacy Policy](https://zivaai.app/privacy)
+- [Support](https://zivaai.app/support)
