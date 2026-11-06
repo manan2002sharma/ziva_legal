@@ -36,15 +36,15 @@
 <main>
   <div class="brand"><span class="dot" aria-hidden="true"></span>Ziva</div>
   <h1>Privacy Policy</h1>
-  <p class="meta">Effective 22 October 2026 · Applies to the Ziva app for iPhone and iPad · See also our <a href="terms.html">Terms of Use</a> and <a href="support.html">Support</a></p>
+  <p class="meta">Effective 6 November 2026 · Applies to the Ziva app for iPhone and iPad · See also our <a href="terms.html">Terms of Use</a> and <a href="support.html">Support</a></p>
 
   <p>Ziva builds you a meal and workout plan from a few questions, and lets you change it by chatting with Ziva. This policy explains what data that involves, where it goes, and how to delete it. "Ziva", "we" and "us" mean Manan Sharma, the founder and publisher of Ziva, based in Udaipur, Rajasthan, India, who decides how your data is used (the "data controller" or "data fiduciary").</p>
 
   <section class="card short">
     <h2>The short version</h2>
     <ul>
-      <li><strong>Your plan, chat and reminders live on your device.</strong> We don't keep copies on our servers.</li>
-      <li><strong>Ziva asks before anything goes to OpenAI.</strong> To build and change your plan, your answers, your plan and your messages pass through our server to OpenAI. Our server discards them once it has replied; OpenAI may keep them for up to 30 days to check for abuse.</li>
+      <li><strong>Your plan, chat, logs, progress photos and reminders live on your device.</strong> We don't keep copies on our servers.</li>
+      <li><strong>Ziva asks before anything goes to OpenAI.</strong> To build and change your plan and estimate the food you log, your answers, your plan, your messages and your food photos and descriptions pass through our server to OpenAI. Progress photos never leave your device unless you save or share them. Our server discards what it receives once it has replied; OpenAI may keep them for up to 30 days to check for abuse.</li>
       <li><strong>Our server stores almost nothing about you:</strong> a random account ID, your subscription status and how much you've used Ziva. Never your answers, your plan or what you write.</li>
       <li><strong>Sign in with Apple gives us no name or email.</strong> Your first name stays on your device.</li>
       <li><strong>No ads, no tracking across apps, no selling data.</strong> Ziva uses PostHog to learn which screens and features people use, never your answers, your plan or what you write.</li>
@@ -57,13 +57,15 @@
   <ul>
     <li>Your answers to the onboarding questions (for example age, sex, height, weight, goal, activity level, diet, allergies, foods you like or avoid, equipment, training days, injuries, meal times and shopping day), and your first name if you enter one.</li>
     <li>Your meal plan, workouts, grocery list, reminders and chat history.</li>
+    <li>What you log: meals and their photos, workouts and sets, and your progress photos.</li>
     <li>Your sign-in session, kept in your device's Keychain.</li>
   </ul>
-  <p>Ziva does not sync this to iCloud or to any server of ours. If you delete the app, sign out or delete your account, it is gone. Reminders are local notifications scheduled on your device.</p>
+  <p>Ziva does not sync this to iCloud or to any server of ours. If you delete the app or delete your account, it is gone. If you sign out, it stays on your device, closed until you sign in again with the same Apple Account; you can erase it from the sign-in screen instead. Reminders are local notifications scheduled on your device.</p>
 
   <h2>2. What passes through our servers, and isn't kept</h2>
-  <p><strong>We ask first.</strong> After the last onboarding question, and before you sign in, the app shows a screen explaining that your answers, your plan and your messages are sent to OpenAI to write your plan and answer your chats. Nothing is sent until you tap <em>Agree and continue</em>. If you don't agree, Ziva can't write a plan. You can withdraw your agreement at any time by signing out or deleting your account (Profile); the app then asks again before sending anything.</p>
+  <p><strong>We ask first.</strong> After the last onboarding question, and before you sign in, the app shows a screen explaining that your answers, your plan, your messages and your food photos and descriptions are sent to OpenAI to write your plan, answer your chats and estimate the food you log. Nothing is sent until you tap <em>Agree and continue</em>. If you don't agree, Ziva can't write a plan. If you agreed before food estimates were added, the app asks you separately before the first one, and you can enter food yourself instead. You can withdraw your agreement at any time by signing out or deleting your account (Profile); the app then asks again before sending anything.</p>
   <p>When Ziva writes your plan, or when you send a chat message or tap a suggestion, the app sends our server what's needed to answer: your onboarding answers (not your name), your current plan, and your recent chat messages. Our server uses them to produce a reply or a proposed change, passes the necessary parts to OpenAI (section 4), and discards them when the request ends. They are not written to our database, our cache or our logs.</p>
+  <p>When you log food with a photo or a description, the app sends our server that photo or description, and the meal it stands in for if there is one, so OpenAI can estimate the calories and macros. Our server discards them when the request ends. Your progress photos are never sent.</p>
   <p>Each chat message is also checked by OpenAI's moderation service. If a message is flagged, we may record the <em>category</em> of the flag (for example "self-harm") with your account ID and the time, never the message itself, so we can respond to repeated safety concerns.</p>
   <p><strong>Reporting a reply.</strong> If you report one of Ziva's replies (press and hold it, then <em>Report this reply</em>), your email app opens a message to us with the reply, its ID and your Support ID. We only receive it if you send it. We use reports, like any email you send us, to look into the problem and improve Ziva, and delete them once they've been dealt with.</p>
 
@@ -83,7 +85,7 @@
   <h2>4. Who else processes your data</h2>
   <p>We use these service providers. They process data on our behalf to run Ziva, and are not allowed to use it for their own advertising.</p>
   <ul>
-    <li><strong>OpenAI</strong> writes your plan, answers chat messages and moderates them. It receives your onboarding answers (not your name), your plan and recent chat messages for each request. With chat messages it also receives your random Ziva account ID, so that your requests reuse the same cache, which makes replies faster; the ID doesn't tell OpenAI who you are. OpenAI states that data sent through its API is not used to train its models by default and may be kept for up to 30 days to monitor abuse (<a href="https://openai.com/enterprise-privacy/">OpenAI's business data policy</a>).</li>
+    <li><strong>OpenAI</strong> writes your plan, answers chat messages, moderates them and estimates the food you log. It receives your onboarding answers (not your name), your plan and recent chat messages for each request, and the food photo or description for each estimate. With chat messages it also receives your random Ziva account ID, so that your requests reuse the same cache, which makes replies faster; the ID doesn't tell OpenAI who you are. OpenAI states that data sent through its API is not used to train its models by default and may be kept for up to 30 days to monitor abuse (<a href="https://openai.com/enterprise-privacy/">OpenAI's business data policy</a>).</li>
     <li><strong>Apple</strong> provides Sign in with Apple and handles all payments. We never see your card details.</li>
     <li><strong>RevenueCat</strong> manages subscriptions. It receives your Ziva account ID, your purchase and subscription history, basic device and app information, and, if you answered it, where you heard about Ziva (<a href="https://www.revenuecat.com/privacy">RevenueCat's privacy policy</a>).</li>
     <li><strong>PostHog</strong> shows us how the app is used, so we can improve it. It receives which screens you reach and which features you open (for example "meal opened" or "chat message sent"), recordings of your sessions with on-screen text and photos hidden, basic device and app information, an approximate location worked out from your IP address, and, once you sign in, your Ziva account ID. It never receives your answers, your plan or what you write. PostHog stores this in the United States (<a href="https://posthog.com/privacy">PostHog's privacy policy</a>).</li>
@@ -100,10 +102,10 @@
 
   <h2>6. Deleting your data</h2>
   <ul>
-    <li><strong>Delete your account:</strong> in the app, go to Profile → Delete account. We revoke your Apple sign-in, then delete your account, every sign-in session, your subscription record, moderation flags and usage history from our database. The app then erases your plan, chat, reminders and answers from your device. Technical logs that contain only your account ID expire within 30 days.</li>
+    <li><strong>Delete your account:</strong> in the app, go to Profile → Delete account. We revoke your Apple sign-in, then delete your account, every sign-in session, your subscription record, moderation flags and usage history from our database. The app then erases your plan, chat, reminders, answers, logs and photos from your device. Technical logs that contain only your account ID expire within 30 days.</li>
     <li><strong>Usage data in PostHog</strong> (section 4) is linked only to your account ID. Email us your Support ID and we'll delete it.</li>
     <li><strong>Deleting your account does not cancel your subscription.</strong> Apple bills subscriptions. Cancel on your iPhone or iPad in Settings → your name → Subscriptions.</li>
-    <li><strong>Sign out:</strong> Profile → Sign out also erases everything stored on your device, because your plan exists only there.</li>
+    <li><strong>Sign out:</strong> Profile → Sign out keeps what's stored on your device, closed until you sign in again with the same Apple Account. To remove it, choose <em>Start fresh instead</em> on the sign-in screen, or delete the app. Starting fresh doesn't delete your account on our servers; to do that, sign in and use Delete account.</li>
     <li><strong>Revoke Sign in with Apple:</strong> you can also stop using Sign in with Apple for Ziva in Settings, under your Apple Account's Sign in with Apple list.</li>
   </ul>
 
