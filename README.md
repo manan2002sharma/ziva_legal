@@ -2,9 +2,9 @@
 
 This repo holds two things:
 
-- `privacy.html`, `terms.html` and `support.html` at the root. GitHub Pages serves them at
-  `manan2002sharma.github.io/ziva_legal/…`, which is what App Store Connect links to today. Keep them at these paths
-  until App Store Connect points at zivaai.app instead.
+- `privacy.html`, `terms.html` and `support.html` at the root. GitHub Pages still serves them at
+  `manan2002sharma.github.io/ziva_legal/…`, but each one redirects to its zivaai.app page, because the Ziva 1.0 app and
+  older App Store listings link there. Keep them at these paths.
 - The zivaai.app website (everything else). It renders those same three files at `/privacy`, `/terms` and `/support`,
   so there is one copy of the legal text.
 
