@@ -17,7 +17,19 @@ export const faq: QA[] = [
   { q: 'Is there a free trial?', a: trialAnswer() },
   {
     q: 'Does ZivaAI count calories from photos?',
-    a: "No. ZivaAI plans your meals in advance, with calories, protein, carbs and fat already worked out for every meal. It doesn't log food from photos or barcodes.",
+    a: "Yes. Take a photo of a meal or describe it in a sentence, and ZivaAI estimates its calories, protein, carbs and fat. Planned meals already have them worked out, so you can just tick one as eaten.",
+  },
+  {
+    q: 'Can I log my workouts in ZivaAI?',
+    a: "Yes. Start a planned workout and log one set at a time, a whole exercise, or the whole workout at once. Each exercise shows what you lifted last time, the summary shows your new personal bests, and you can log sets from the Lock Screen and Dynamic Island without opening the app. There's no rest timer or running clock.",
+  },
+  {
+    q: 'Can I log with Siri?',
+    a: 'Yes. Say "Log my breakfast in Ziva" to tick a planned meal, "Log food in Ziva" to describe something else, or "Log my set in Ziva" during a workout. The Action Button and a Lock Screen control open food logging too.',
+  },
+  {
+    q: 'Does Ziva change my plan from what I log?',
+    a: "Not yet. Your log is kept beside the plan, with a calendar and graphs of your eating and training, but Ziva, the coach, can't see it. To change the plan, ask Ziva in the chat.",
   },
   {
     q: 'Can ZivaAI plan vegetarian, vegan, halal or kosher meals?',
@@ -38,11 +50,11 @@ export const faq: QA[] = [
   { q: 'Is ZivaAI on Android?', a: `No. ZivaAI is available for ${site.platforms} with ${site.minOS}.` },
   {
     q: 'Where is my data stored?',
-    a: "Your answers, plan, chats and reminders are stored on your device, not on ZivaAI's servers. To write or change your plan, the app sends what's needed through ZivaAI's server to OpenAI after you agree, and the server discards it once it has replied. Sign in with Apple gives ZivaAI no name or email.",
+    a: "Your answers, plan, chats, reminders, logs and photos are stored on your device, not on ZivaAI's servers. To write or change your plan and estimate the food you log, the app sends what's needed through ZivaAI's server to OpenAI after you agree, and the server discards it once it has replied. Sign in with Apple gives ZivaAI no name or email.",
   },
   {
     q: 'Who is ZivaAI for?',
-    a: `Adults, ${site.minAge} and over, who want their week of meals and training planned for them. ZivaAI gives general wellness guidance, not medical advice.`,
+    a: `Adults, ${site.minAge} and over, who want their week of meals and training planned for them, and an easy way to log what they actually eat and lift. ZivaAI gives general wellness guidance, not medical advice.`,
   },
   {
     q: 'How do I cancel?',
@@ -51,5 +63,5 @@ export const faq: QA[] = [
 ];
 
 export const homeFaq = faq.filter((x) =>
-  ['What is ZivaAI?', 'How much does ZivaAI cost?', 'Does ZivaAI count calories from photos?', 'Can I work out at home with no equipment?', 'Is ZivaAI on Android?'].includes(x.q),
+  ['What is ZivaAI?', 'How much does ZivaAI cost?', 'Does ZivaAI count calories from photos?', 'Can I log my workouts in ZivaAI?', 'Can I work out at home with no equipment?', 'Is ZivaAI on Android?'].includes(x.q),
 );

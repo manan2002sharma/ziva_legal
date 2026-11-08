@@ -11,7 +11,7 @@ import { Analytics } from '@/components/Analytics';
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: { default: 'ZivaAI: AI Meal and Workout Planner for iPhone', template: '%s | ZivaAI' },
+  title: { default: 'ZivaAI: AI Meal Planner, Workout Planner & Calorie Counter', template: '%s | ZivaAI' },
   description: site.definition,
   applicationName: site.name,
   alternates: { canonical: '/' },

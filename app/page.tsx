@@ -15,6 +15,9 @@ import { ChatScreen } from '@/components/screens/ChatScreen';
 import { MealsScreen } from '@/components/screens/MealsScreen';
 import { WorkoutScreen } from '@/components/screens/WorkoutScreen';
 import { GroceryScreen } from '@/components/screens/GroceryScreen';
+import { LogFoodScreen } from '@/components/screens/LogFoodScreen';
+import { SessionScreen } from '@/components/screens/SessionScreen';
+import { PhotosScreen } from '@/components/screens/PhotosScreen';
 
 const diets = ['Vegetarian', 'Vegan', 'Pescatarian', 'Halal', 'Kosher', 'Gluten-free', 'Dairy-free'];
 const cuisines = ['Mediterranean', 'Mexican', 'Japanese', 'Indian', 'Italian', 'American', 'Chinese', 'Thai', 'Middle Eastern', 'Korean', 'French', 'Latin American'];
@@ -33,7 +36,7 @@ export default function Home() {
             </h1>
             <p className="hero__lede">
               Tell Ziva your goal, the food you like and the equipment you have. In about a minute you get a week of meals and workouts
-              and one grocery list. Change anything by asking.
+              and one grocery list. Snap a meal to count its calories, log every set, and change anything by asking.
             </p>
             <div className="hero__actions">
               <AppStoreButton campaign="web-home-hero" size="l" />
@@ -85,7 +88,35 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section" id="logging">
+        <div className="wrap">
+          <div className="section__head">
+            <h2>Then log what you actually eat and lift</h2>
+            <p>The plan is what Ziva suggests. The log is what happened, kept by day right beside it.</p>
+          </div>
+          <FeatureTabs
+            features={[
+              {
+                key: 'food', title: 'Snap a meal, get the calories',
+                text: 'Take a photo of your plate or describe it in a sentence, and Ziva estimates its calories, protein, carbs and fat, and says what it assumed. A planned meal is one tap: its numbers are already worked out.',
+                screen: <Phone label="Ziva's calorie estimate for a photo of a chicken burrito bowl" scale={0.74} dark><LogFoodScreen /></Phone>,
+              },
+              {
+                key: 'sets', title: 'Log every set, beat your best',
+                text: "Tick sets as you go, with last session's numbers beside each exercise and your personal bests saved. Your workout shows on the Lock Screen and Dynamic Island, and Siri can log a set or a meal in one sentence.",
+                screen: <Phone label="A ZivaAI workout in progress, logging sets of push-ups" scale={0.74}><SessionScreen /></Phone>,
+              },
+              {
+                key: 'progress', title: 'A photo a day, side by side',
+                text: 'Take a daily progress photo with a ghost of the last one to line it up, then compare two days or play them as a timelapse. A month calendar and graphs show your eating and training. Progress photos never leave your phone.',
+                screen: <Phone label="ZivaAI progress photos, newest first" scale={0.74}><PhotosScreen /></Phone>,
+              },
+            ]}
+          />
+        </div>
+      </section>
+
+      <section className="section section--warm">
         <div className="wrap">
           <div className="section__head">
             <h2>A real week from ZivaAI</h2>
@@ -104,8 +135,8 @@ export default function Home() {
           <div className="cards3">
             <div className="card">
               <span className="card__icon"><Icon name="layers" /></span>
-              <h3>One plan instead of three apps</h3>
-              <p>Meals, workouts and groceries come from the same answers and the same goal, so the shopping list always matches the menu.</p>
+              <h3>Plan and log in one app</h3>
+              <p>Meals, workouts and groceries come from the same answers, so the shopping list matches the menu, and what you eat and lift is logged right beside the plan.</p>
             </div>
             <div className="card">
               <span className="card__icon"><Icon name="chat" /></span>
@@ -115,7 +146,7 @@ export default function Home() {
             <div className="card">
               <span className="card__icon"><Icon name="lock" /></span>
               <h3>Your plan stays on your phone</h3>
-              <p>Sign in with Apple, with no email or password. Your plan and chats are stored on your device, and Ziva asks before anything is sent to OpenAI.</p>
+              <p>Sign in with Apple, with no email or password. Your plan, chats, logs and photos are stored on your device, and Ziva asks before anything is sent to OpenAI. Progress photos never leave it.</p>
             </div>
           </div>
         </div>

@@ -4,3 +4,7 @@ out/
 *.tsbuildinfo
 next-env.d.ts
 .env*.local
+.vercel
+.design-ref/
+install.log
+*.log

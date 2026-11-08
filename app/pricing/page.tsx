@@ -17,6 +17,9 @@ const included = [
   'Workouts of 20 to 60 minutes for the gym or home',
   'Chat with Ziva to change any meal or workout',
   'One grocery list for the week, sorted by aisle',
+  'Calorie and macro estimates from a photo or a sentence',
+  'Set logging with personal bests, on the Lock Screen too',
+  'Daily progress photos, a timelapse, and graphs of your eating and training',
   'Reminders for meals, workouts and shopping day',
 ];
 

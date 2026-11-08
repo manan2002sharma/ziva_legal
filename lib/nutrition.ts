@@ -45,8 +45,8 @@ export function macros(i: MacroInput) {
 }
 
 export const proteinGoals = [
-  { key: 'health', label: 'General health, little exercise', min: 0.8, max: 1.0 },
-  { key: 'active', label: 'Regular exercise or sport', min: 1.2, max: 1.6 },
+  { key: 'health', label: 'General health (US Dietary Guidelines)', min: 1.2, max: 1.6 },
+  { key: 'active', label: 'Regular exercise or sport', min: 1.4, max: 2.0 },
   { key: 'muscle', label: 'Build muscle', min: 1.6, max: 2.2 },
   { key: 'cut', label: 'Lose fat while strength training', min: 1.8, max: 2.2 },
 ] as const;
@@ -71,6 +71,10 @@ export const sources = {
   issn: {
     label: 'Jäger R, et al. International Society of Sports Nutrition position stand: protein and exercise. J Int Soc Sports Nutr. 2017;14:20.',
     url: 'https://pubmed.ncbi.nlm.nih.gov/28642676/',
+  },
+  dga: {
+    label: 'U.S. Department of Agriculture and U.S. Department of Health and Human Services. Dietary Guidelines for Americans, 2025–2030.',
+    url: 'https://cdn.realfood.gov/DGA.pdf',
   },
   perMeal: {
     label: 'Schoenfeld BJ, Aragon AA. How much protein can the body use in a single meal for muscle-building? J Int Soc Sports Nutr. 2018;15:10.',

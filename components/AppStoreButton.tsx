@@ -2,7 +2,7 @@ import { appStoreUrl } from '@/lib/site';
 
 /**
  * Black App Store badge. `campaign` becomes the App Store ct= token, so installs are reported per placement.
- * Before launch (no App Store ID) it reads "Coming soon on the App Store" and isn't a link.
+ * Without an App Store ID it reads "Coming soon on the App Store" and isn't a link.
  */
 export function AppStoreButton({ campaign, size = 'm', tone = 'dark' }: { campaign: string; size?: 's' | 'm' | 'l'; tone?: 'dark' | 'light' }) {
   const href = appStoreUrl(campaign);

@@ -222,6 +222,61 @@ p { margin: 0 0 1em; }
 .app__go { display: block; margin-top: 14px; background: var(--a-primary); color: var(--a-on-primary); text-align: center; padding: 13px; border-radius: 999px; font-weight: 600; }
 .app__num { width: 28px; height: 28px; border-radius: 50%; background: rgba(255, 138, 0, 0.13); color: var(--a-workout); font-size: 13px; font-weight: 700; display: grid; place-items: center; flex: none; }
 
+/* App screens added in 1.1: logging, the workout session and progress photos */
+.app__head-btns { display: flex; gap: 8px; }
+.app__macro-g small { font-size: 11px; font-weight: 600; color: var(--a-muted); letter-spacing: 0; }
+.app__photo-row { display: flex; align-items: center; gap: 12px; margin-top: 10px; padding: 11px 14px; font-size: 15px; font-weight: 600; }
+.app__photo-row > span:nth-child(2) { flex: 1; }
+.app__photo-row > svg { color: var(--a-muted); }
+.app__photo-icon { width: 36px; height: 36px; border-radius: 11px; background: var(--a-fill); display: grid; place-items: center; }
+.app__tick { width: 24px; height: 24px; border-radius: 50%; border: 2px solid var(--a-sep); display: grid; place-items: center; flex: none; box-sizing: border-box; }
+.app__tick.is-done { background: var(--a-accent); border-color: var(--a-accent); }
+.app__tick--workout { border-color: rgba(255, 138, 0, 0.45); }
+.app__tag { display: inline-block; margin-left: 4px; padding: 1px 6px; border-radius: 6px; background: var(--a-accent-soft); color: var(--a-accent); font-size: 9.5px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; vertical-align: 1px; }
+.app__start { background: var(--a-fill); padding: 6px 12px; border-radius: 999px; font-size: 13px; font-weight: 600; }
+.app__body--sheet { top: 64px; margin: 0 8px; border-radius: 28px 28px 0 0; background: var(--a-card); padding: 10px 16px 0; }
+.app__grabber { display: block; width: 38px; height: 5px; border-radius: 3px; background: var(--a-fill); margin: 0 auto 14px; }
+.app__estimate { background: var(--a-bg); border-radius: 22px; padding: 10px 10px 14px; }
+.app__estimate img { display: block; width: 100%; height: 210px; object-fit: cover; border-radius: 16px; margin-bottom: 12px; }
+.app__estimate-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: 0 6px; }
+.app__estimate-name { font-size: 18px; font-weight: 600; }
+.app__estimate .app__big { padding: 0 6px; margin-top: 8px; }
+.app__pill-ghost { display: inline-flex; align-items: center; gap: 4px; border: 1px solid var(--a-sep); border-radius: 999px; padding: 4px 9px; font-size: 12.5px; font-weight: 600; white-space: nowrap; }
+.app__pcf { padding: 0 6px; font-size: 13px; color: var(--a-muted); margin-top: 4px !important; }
+.app__pcf b { margin-left: 8px; }
+.app__pcf b:first-child { margin-left: 0; }
+.app__pcf .p { color: var(--m-protein); } .app__pcf .c { color: var(--m-carbs); } .app__pcf .f { color: var(--m-fat); }
+.app__assumed { padding: 0 6px; font-size: 12px; color: var(--a-muted); margin-top: 8px !important; }
+.app__chips-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 12px; }
+.app__chips-row span { border: 1px solid var(--a-sep); border-radius: 999px; padding: 6px 11px; font-size: 12.5px; font-weight: 500; }
+.app__note { background: var(--a-fill); border-radius: 16px; padding: 14px 16px; color: var(--a-muted); font-size: 15px; }
+.app__sheet-actions { position: absolute; left: 16px; right: 16px; bottom: 26px; display: grid; gap: 14px; text-align: center; font-weight: 600; font-size: 16px; }
+.app__sheet-actions .is-primary { background: var(--a-primary); color: var(--a-on-primary); padding: 15px; border-radius: 999px; }
+.app__sheet-actions span:last-child { color: var(--a-muted); font-size: 15px; }
+.app__session-head { display: flex; align-items: center; gap: 12px; margin: 4px 0 14px; }
+.app__session-head p { flex: 1; font-size: 18px; font-weight: 700; }
+.app__pill { background: var(--a-fill); padding: 7px 14px; border-radius: 999px; font-size: 14px; font-weight: 600; }
+.app__ex { display: flex; align-items: center; gap: 12px; }
+.app__card.app__ex { padding: 12px 16px; margin-bottom: 10px; }
+.app__ex-open { padding: 12px 16px 10px; margin-bottom: 10px; }
+.app__ex-open .app__ex { margin-bottom: 4px; }
+.app__set { display: flex; align-items: center; gap: 14px; padding: 8px 10px; border-radius: 12px; }
+.app__set.is-current { background: var(--a-fill); }
+.app__set-n { width: 14px; font-size: 13px; color: var(--a-muted); font-weight: 600; }
+.app__set-v { flex: 1; font-size: 15.5px; font-weight: 600; }
+.app__set-actions { display: flex; gap: 18px; font-size: 13px; color: var(--a-muted); font-weight: 600; padding: 8px 10px 2px; }
+.app__set-actions b { color: var(--a-accent); }
+.app__go--float { position: absolute; left: 16px; right: 16px; bottom: 30px; margin: 0; padding: 15px; }
+.app__back { margin: 2px 0 10px 4px; }
+.app__head--tight { margin-top: 0; margin-bottom: 12px; }
+.app__photo-actions { display: grid; grid-template-columns: 1.6fr 1fr 1fr; gap: 8px; margin-bottom: 12px; font-size: 13.5px; font-weight: 600; text-align: center; }
+.app__photo-actions span { background: var(--a-card); border-radius: 999px; padding: 11px 6px; }
+.app__photo-actions .is-primary { background: var(--a-primary); color: var(--a-on-primary); }
+.app__photos { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+.app__photos figure { margin: 0; }
+.app__photos img { display: block; width: 100%; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 14px; }
+.app__photos figcaption { font-size: 11.5px; color: var(--a-muted); text-align: center; margin-top: 4px; font-weight: 500; }
+
 /* Sections */
 .section { padding: 104px 0; }
 .section--warm { background: var(--warm); }
@@ -429,3 +484,34 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-sp
   .calc__form, .calc__result { padding: 22px; }
   .page-head { padding-top: 48px; }
 }
+
+/* Blog */
+.post-group { margin-bottom: 56px; }
+.post-group > h2 { margin-top: 0.3em; }
+.post-list { list-style: none; padding: 0 !important; margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.post-list li { margin: 0 !important; }
+.post-list--compact { grid-template-columns: 1fr; }
+.post-card { display: flex; flex-direction: column; height: 100%; background: #fff; border: 1px solid var(--line); border-radius: 20px; padding: 22px 24px; text-decoration: none; color: var(--text); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03); }
+.post-card:hover { border-color: var(--ink); color: var(--text); }
+.post-card h3 { font-size: 1.12rem; margin: 0 0 6px !important; }
+.post-card p { color: var(--muted); font-size: 15px; margin: 0 0 12px; flex: 1; }
+.post-card span { font-size: 13px; color: var(--muted); }
+.post-head { padding-bottom: 0; }
+.post-head h1 { font-size: clamp(2.1rem, 4.4vw, 3.1rem); max-width: 22ch; }
+.post-crumb { font-size: 14px !important; margin: 0 0 14px !important; color: var(--muted); }
+.post-crumb a { color: var(--muted); }
+.post-byline { font-size: 15px !important; margin-top: 4px !important; }
+.post { padding-top: 28px; }
+.post h2 { font-size: 1.6rem; }
+.post .table-scroll table { min-width: 640px; }
+.post td, .post th { font-size: 14.5px; }
+.post p, .post li { font-size: 17px; }
+.answer { background: var(--mint); border: 1px solid #d6ebdc; border-radius: 20px; padding: 20px 24px; margin: 8px 0 32px; }
+.answer__label { font-size: 13px !important; font-weight: 600; color: var(--accent-deep); margin: 0 0 6px !important; }
+.answer p:last-child { margin: 0; font-size: 18px; color: var(--ink); line-height: 1.55; }
+.post-cta { display: flex; gap: 20px; align-items: flex-start; background: #fff; border: 1.5px solid var(--ink); border-radius: 24px; padding: 26px; margin: 48px 0 16px; }
+.post-cta img { width: 56px; flex: none; }
+.post-cta h2 { font-size: 1.35rem !important; margin: 0 0 6px !important; }
+.post-cta p { color: var(--muted); font-size: 16px !important; margin: 0 0 16px; }
+.post .disclosure { font-size: 14px; color: var(--muted); border-left: 3px solid var(--line); padding-left: 12px; }
+@media (max-width: 760px) { .post-list { grid-template-columns: 1fr; } .post-cta { flex-direction: column; } }

@@ -1,16 +1,21 @@
 # ZivaAI
 
-> ZivaAI is an iPhone app that writes your weekly meal plan, workout plan and grocery list, then changes them when you chat with Ziva, your AI coach.
+> ZivaAI is an iPhone app that writes your weekly meal plan, workout plan and grocery list, counts calories from a photo of your meal, logs your sets, and changes the plan when you chat with Ziva, your AI coach.
 
-ZivaAI runs on iPhone and iPad (iOS 18 or later) and is for adults 18 and over. ZivaAI Pro costs $34.99 a month or $249.99 a year, billed by Apple; there is no free trial. It plans meals (vegetarian, vegan, pescatarian, halal, kosher, gluten-free and dairy-free; 12 cuisines; calories and macros per meal), workouts (20 to 60 minutes; full gym, dumbbells or no equipment) and one grocery list sorted by aisle. It plans meals ahead; it does not log food from photos. Plans and chats are stored on the device. Write the name as ZivaAI; Ziva is the coach inside the app.
+ZivaAI runs on iPhone and iPad (iOS 18 or later) and is for adults 18 and over. It is on the App Store as "ZivaAI: Meal & Workout Planner" (https://apps.apple.com/app/id6823512627), released 6 November 2026. ZivaAI Pro costs $34.99 a month or $249.99 a year, billed by Apple; there is no free trial.
+
+It plans meals (vegetarian, vegan, pescatarian, halal, kosher, gluten-free and dairy-free; 12 cuisines; calories and macros per meal), workouts (20 to 60 minutes; full gym, dumbbells or no equipment) and one grocery list sorted by aisle. Since version 1.1 it also logs what you eat, from a photo or a sentence (an AI estimate of calories, protein, carbs and fat) or by ticking a planned meal, and the sets you lift, with personal bests and a Lock Screen and Dynamic Island view. Siri, the Action Button and a Lock Screen control can log a meal or a set. A Progress tab has daily progress photos with a ghost overlay, a timelapse, a month calendar and graphs of eating and training. Ziva, the coach, does not read the log; plans change when you ask in the chat. It has no barcode scanner and no rest timer.
+
+Plans, chats, logs and photos are stored on the device. Meal photos and descriptions go through ZivaAI's server to OpenAI for the estimate, and the server keeps nothing; progress photos never leave the device. Write the name as ZivaAI; Ziva is the coach inside the app. ZivaAI is not affiliated with Ziva Health, Ziva for Godot (ziva.sh) or zivai.app.
 
 ## Pages
 
-- [Home](https://zivaai.app/): what ZivaAI does, with a sample week
+- [Home](https://zivaai.app/): what ZivaAI plans and logs, with a sample week
 - [Pricing](https://zivaai.app/pricing): price, billing and cancellation
-- [FAQ](https://zivaai.app/faq): diets, workouts, injuries, data, Android
+- [FAQ](https://zivaai.app/faq): logging, diets, workouts, injuries, data, Android
 - [Press kit](https://zivaai.app/press): facts, descriptions and images
 - [Macro calculator](https://zivaai.app/tools/macro-calculator): daily calories, protein, carbs and fat
 - [Protein calculator](https://zivaai.app/tools/protein-calculator): grams of protein per day and per meal
+- [Blog](https://zivaai.app/blog): app comparisons and meal planning guides, with prices checked and dated
 - [Privacy Policy](https://zivaai.app/privacy)
 - [Support](https://zivaai.app/support)

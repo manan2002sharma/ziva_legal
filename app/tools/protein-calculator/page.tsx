@@ -29,8 +29,8 @@ export default function ProteinCalculatorPage() {
         <div className="narrow">
           <h2>How much protein do you need a day?</h2>
           <p className="lead-answer">
-            Adults who lift weights to build muscle do well on 1.6 to 2.2 g of protein per kg of body weight a day, about 0.73 to 1 g per pound.
-            Without regular exercise, 0.8 g per kg is the US recommended amount.
+            The US Dietary Guidelines for 2025 to 2030 set a goal of 1.2 to 1.6 g of protein per kg of body weight a day for adults. People who
+            lift weights to build muscle do well on 1.6 to 2.2 g per kg, about 0.73 to 1 g per pound.
           </p>
           <div className="table-scroll">
             <table>
@@ -45,6 +45,7 @@ export default function ProteinCalculatorPage() {
           <p>
             Muscle gains from extra protein level off around 1.6 g per kg a day, with some people benefiting up to about 2.2 g (Morton and others,
             2018). The International Society of Sports Nutrition puts most people who exercise at 1.4 to 2.0 g per kg (Jäger and others, 2017).
+            The long-standing RDA of 0.8 g per kg is the amount needed to avoid deficiency, not a target for active people.
           </p>
         </div>
 
@@ -75,13 +76,13 @@ export default function ProteinCalculatorPage() {
             (Schoenfeld and Aragon, 2018). For a 180 lb (82 kg) person that is about 33 g per meal.
           </p>
           <h2>Plan meals that hit your protein</h2>
-          <p>ZivaAI plans a week of meals with protein worked out for every meal, so the daily total adds up without tracking.</p>
+          <p>ZivaAI plans a week of meals with protein worked out for every meal, so the daily total adds up, and you can log what you actually ate from a photo.</p>
           <AppStoreButton campaign="web-tool-protein" />
           <h2>Sources</h2>
           <ul className="sources">
-            {[sources.morton, sources.issn, sources.perMeal].map((s) => <li key={s.url}><a href={s.url}>{s.label}</a></li>)}
+            {[sources.dga, sources.morton, sources.issn, sources.perMeal].map((s) => <li key={s.url}><a href={s.url}>{s.label}</a></li>)}
           </ul>
-          <p className="updated">These ranges are for healthy adults. If you have kidney disease or another health condition, ask your doctor before raising your protein. Last updated October 28, 2026.</p>
+          <p className="updated">These ranges are for healthy adults. If you have kidney disease or another health condition, ask your doctor before raising your protein. Last updated October 30, 2026.</p>
         </div>
       </div>
       <JsonLd

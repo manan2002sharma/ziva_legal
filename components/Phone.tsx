@@ -23,8 +23,8 @@ export function Phone({ children, scale = 0.7, dark = false, className = '', lab
 }
 
 /** The app's floating tab bar, with the Ziva button at the end. */
-export function TabBar({ active }: { active: 'home' | 'workout' | 'meal' | 'reminder' }) {
-  const tabs: [typeof active, string, string][] = [['home', 'Home', 'home'], ['workout', 'Workout', 'workout'], ['meal', 'Meal', 'meal'], ['reminder', 'Reminder', 'bell']];
+export function TabBar({ active }: { active: 'home' | 'workout' | 'meal' | 'progress' }) {
+  const tabs: [typeof active, string, string][] = [['home', 'Home', 'home'], ['workout', 'Workout', 'workout'], ['meal', 'Meal', 'meal'], ['progress', 'Progress', 'calendar']];
   return (
     <div className="app__tabs" aria-hidden="true">
       <div className="app__tabbar">
@@ -40,12 +40,13 @@ export function TabBar({ active }: { active: 'home' | 'workout' | 'meal' | 'remi
   );
 }
 
-function TabIcon({ name }: { name: string }) {
+export function TabIcon({ name }: { name: string }) {
   const d: Record<string, string> = {
     home: 'M4 11 12 4l8 7v9h-5v-6H9v6H4Z',
     workout: 'M6.5 6.5v11M17.5 6.5v11M3.5 9v6M20.5 9v6M6.5 12h11',
     meal: 'M7 3v8a2 2 0 0 0 2 2v8M5 3v5M9 3v5M17 21V3c-2 0-3 2-3 6v4h3',
     bell: 'M6 16V11a6 6 0 0 1 12 0v5l1.5 2h-15ZM10 20.5a2 2 0 0 0 4 0',
+    calendar: 'M4 6.5A1.5 1.5 0 0 1 5.5 5h13A1.5 1.5 0 0 1 20 6.5v12a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 4 18.5ZM4 10h16M8 3v4M16 3v4M8 13.5h2M14 13.5h2M8 16.5h2',
   };
   return (
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round"><path d={d[name]} /></svg>

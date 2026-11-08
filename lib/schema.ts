@@ -24,6 +24,15 @@ export const appSchema = () => ({
   image: `${site.url}/images/app-icon.png`,
   operatingSystem: site.minOS.replace(' or later', '+'),
   applicationCategory: 'HealthApplication',
+  featureList: [
+    'Weekly meal plan with recipes, calories and macros for every meal',
+    'Workouts of 20 to 60 minutes for a gym, dumbbells or no equipment',
+    'One grocery list for the week, sorted by aisle',
+    'AI coach chat that changes the plan',
+    'Calorie and macro estimates from a meal photo or description',
+    'Set logging with personal bests, on the Lock Screen and Dynamic Island',
+    'Daily progress photos, timelapse, and graphs of eating and training',
+  ],
   publisher: { '@id': `${site.url}/#organization` },
   ...(site.appStoreId ? { installUrl: `https://apps.apple.com/app/id${site.appStoreId}` } : {}),
   offers: [

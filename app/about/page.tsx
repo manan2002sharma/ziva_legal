@@ -20,13 +20,15 @@ export default function About() {
         <h2>Why it exists</h2>
         <p>
           Planning a week of meals and training takes hours, and most apps handle only one half. ZivaAI plans both from the same answers,
-          builds the grocery list from the meals, and lets you change any of it by asking.
+          builds the grocery list from the meals, and lets you change any of it by asking. Since version 1.1 it also logs what you actually
+          eat and lift, so the plan and what happened sit side by side.
         </p>
         <h2>How ZivaAI writes your plan</h2>
         <p>
           After you agree, your answers go through ZivaAI&rsquo;s server to OpenAI, which writes the plan. Each meal shows its calories, protein,
           carbs and fat. Exercise pictures and instructions come from RepDB&rsquo;s exercise dataset. Your plan and chats are stored on your
-          device, not on ZivaAI&rsquo;s servers.
+          device, not on ZivaAI&rsquo;s servers. When you log a meal from a photo or a sentence, it goes the same way to OpenAI for a
+          calorie and macro estimate, and the server keeps nothing. Your logs and progress photos stay on your device.
         </p>
         <h2>Who makes it</h2>
         <p>ZivaAI is published by {site.publisher}, its founder.</p>
