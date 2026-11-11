@@ -5,7 +5,7 @@ import { AppStoreButton } from './AppStoreButton';
 const groups = [
   { title: 'Product', links: [['/#features', 'Features'], ['/pricing', 'Pricing'], ['/faq', 'FAQ']] },
   { title: 'Free tools', links: [['/tools/macro-calculator', 'Macro calculator'], ['/tools/protein-calculator', 'Protein calculator']] },
-  { title: 'Company', links: [['/about', 'About'], ['/blog', 'Blog'], ['/press', 'Press kit'], ['/support', 'Support']] },
+  { title: 'Company', links: [['/about', 'About'], ['/blog', 'Blog'], ['/press', 'Press kit'], ['/how-we-compare', 'How we compare'], ['/support', 'Support']] },
   { title: 'Legal', links: [['/privacy', 'Privacy Policy'], ['/terms', 'Terms of Use']] },
 ];
 

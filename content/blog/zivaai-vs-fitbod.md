@@ -20,7 +20,7 @@ sources:
 related: [fitbod-alternatives, best-app-for-meal-and-workout-plans, fitbod-vs-planfit]
 ---
 
-<p class="disclosure">We make ZivaAI, so read this with that in mind. Fitbod's details come from its App Store listing and website, checked October 29, 2026. ZivaAI's details are for version 1.1. Prices are for the US and can change.</p>
+<p class="disclosure">We make ZivaAI, so read this with that in mind. Fitbod's details come from its App Store listing and website, checked October 29, 2026. ZivaAI's details are for version 1.1. Prices are for the US and can change. <a href="/how-we-compare">How we compare apps</a>.</p>
 
 ## The short version
 

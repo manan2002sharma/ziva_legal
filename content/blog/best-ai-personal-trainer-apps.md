@@ -28,7 +28,7 @@ sources:
 related: [fitbod-alternatives, fitbod-vs-planfit, fitbod-vs-freeletics]
 ---
 
-<p class="disclosure">We make ZivaAI, one of the apps below. Details for every other app come from its own website or App Store listing, checked October 29, 2026. Where the App Store lists several prices, we show the range. Prices are for the US and can change.</p>
+<p class="disclosure">We make ZivaAI, one of the apps below. Details for every other app come from its own website or App Store listing, checked October 29, 2026. Where the App Store lists several prices, we show the range. Prices are for the US and can change. <a href="/how-we-compare">How we compare apps</a>.</p>
 
 ## What an AI personal trainer app does
 

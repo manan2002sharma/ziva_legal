@@ -34,7 +34,7 @@ sources:
 related: [best-app-for-meal-and-workout-plans, can-chatgpt-make-a-meal-plan, eat-this-much-alternatives]
 ---
 
-<p class="disclosure">We make ZivaAI, one of the apps below. Details for every other app come from its own website, help pages or App Store listing, checked October 29 and 30, 2026. Prices are for the US and can change.</p>
+<p class="disclosure">We make ZivaAI, one of the apps below. Details for every other app come from its own website, help pages or App Store listing, checked October 29 and 30, 2026. Prices are for the US and can change. <a href="/how-we-compare">How we compare apps</a>.</p>
 
 ## What an AI meal planner should do
 

@@ -21,7 +21,7 @@ export const site = {
   supportEmail: 'whynothustle.manan@gmail.com',
   publisher: 'Manan Sharma',
   /** Byline on blog posts. */
-  author: { name: 'Manan Sharma', role: 'Founder of ZivaAI' },
+  author: { name: 'Manan Sharma', role: 'Founder of ZivaAI', url: '/author/manan-sharma' },
   /** Shown wherever a page says where to get the app. */
   availability: 'on the App Store',
   copyright: '© 2026 Manan Sharma',
@@ -72,6 +72,8 @@ export const routes = [
   '/tools/macro-calculator',
   '/tools/protein-calculator',
   '/blog',
+  '/how-we-compare',
+  '/author/manan-sharma',
   '/support',
   '/privacy',
   '/terms',

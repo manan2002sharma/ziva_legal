@@ -17,5 +17,6 @@ Plans, chats, logs and photos are stored on the device. Meal photos and descript
 - [Macro calculator](https://zivaai.app/tools/macro-calculator): daily calories, protein, carbs and fat
 - [Protein calculator](https://zivaai.app/tools/protein-calculator): grams of protein per day and per meal
 - [Blog](https://zivaai.app/blog): app comparisons and meal planning guides, with prices checked and dated
+- [How we compare apps](https://zivaai.app/how-we-compare): where comparison facts come from and how they're dated
 - [Privacy Policy](https://zivaai.app/privacy)
 - [Support](https://zivaai.app/support)

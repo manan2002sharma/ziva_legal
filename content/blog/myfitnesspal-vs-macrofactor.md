@@ -23,10 +23,10 @@ sources:
     url: "https://help.macrofactorapp.com/en/articles/393-how-macrofactor-subscriptions-and-bundles-work"
   - title: "MacroFactor on the App Store"
     url: "https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471"
-related: [eat-this-much-vs-macrofactor, noom-alternatives, best-ai-meal-planner-apps]
+related: [myfitnesspal-alternatives, macrofactor-alternatives, eat-this-much-vs-macrofactor]
 ---
 
-<p class="disclosure">We make ZivaAI, which is mentioned at the end. Details for both apps come from their own websites, help pages and store listings, checked October 29, 2026. Prices are for the US and can change.</p>
+<p class="disclosure">We make ZivaAI, which is mentioned at the end. Details for both apps come from their own websites, help pages and store listings, checked October 29, 2026. Prices are for the US and can change. <a href="/how-we-compare">How we compare apps</a>.</p>
 
 ## Side by side
 

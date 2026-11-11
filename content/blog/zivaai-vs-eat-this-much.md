@@ -20,7 +20,7 @@ sources:
 related: [eat-this-much-alternatives, eat-this-much-vs-macrofactor, best-ai-meal-planner-apps]
 ---
 
-<p class="disclosure">We make ZivaAI, so read this with that in mind. Eat This Much's details come from its help pages and App Store listing, checked October 29, 2026. Prices are for the US and can change.</p>
+<p class="disclosure">We make ZivaAI, so read this with that in mind. Eat This Much's details come from its help pages and App Store listing, checked October 29, 2026. Prices are for the US and can change. <a href="/how-we-compare">How we compare apps</a>.</p>
 
 ## Side by side
 

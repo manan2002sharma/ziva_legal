@@ -23,10 +23,10 @@ sources:
     url: "https://help.eatthismuch.com/help/what-do-i-get-for-subscribing"
   - title: "MyFitnessPal Premium+"
     url: "https://www.myfitnesspal.com/premium-plus"
-related: [best-app-for-meal-and-workout-plans, myfitnesspal-vs-macrofactor, best-ai-meal-planner-apps]
+related: [myfitnesspal-alternatives, best-app-for-meal-and-workout-plans, best-ai-meal-planner-apps]
 ---
 
-<p class="disclosure">We make ZivaAI, one of the apps below. Details for every other app come from its own website, help pages or App Store listing, checked October 29, 2026. Prices are for the US and can change.</p>
+<p class="disclosure">We make ZivaAI, one of the apps below. Details for every other app come from its own website, help pages or App Store listing, checked October 29, 2026. Prices are for the US and can change. <a href="/how-we-compare">How we compare apps</a>.</p>
 
 ## What Noom gives you
 

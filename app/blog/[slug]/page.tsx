@@ -37,7 +37,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             <p className="post-crumb"><Link href="/blog">Blog</Link> / {p.category}</p>
             <h1>{p.title}</h1>
             <p className="post-byline">
-              By {site.author.name}, {site.author.role.charAt(0).toLowerCase() + site.author.role.slice(1)}. Updated <time dateTime={p.updated}>{longDate(p.updated)}</time>.
+              By <Link href={site.author.url}>{site.author.name}</Link>, {site.author.role.charAt(0).toLowerCase() + site.author.role.slice(1)}. Updated <time dateTime={p.updated}>{longDate(p.updated)}</time>.
             </p>
           </div>
         </header>
@@ -87,7 +87,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
             '@context': 'https://schema.org', '@type': 'BlogPosting', headline: p.title, description: p.description,
             datePublished: p.date, dateModified: p.updated, mainEntityOfPage: url, url, wordCount: p.words,
             image: `${site.url}/og.jpg`,
-            author: { '@type': 'Person', name: site.author.name, jobTitle: site.author.role, url: `${site.url}/about` },
+            author: { '@type': 'Person', '@id': `${site.url}${site.author.url}#person`, name: site.author.name, jobTitle: site.author.role, url: `${site.url}${site.author.url}` },
             publisher: { '@id': `${site.url}/#organization` },
           },
           breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Blog', path: '/blog' }, { name: p.title, path: `/blog/${p.slug}` }]),

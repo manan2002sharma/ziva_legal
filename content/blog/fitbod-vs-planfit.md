@@ -26,7 +26,7 @@ sources:
 related: [fitbod-alternatives, best-ai-personal-trainer-apps, zivaai-vs-fitbod]
 ---
 
-<p class="disclosure">We make ZivaAI, which is mentioned at the end. Details for both apps come from their own websites and store listings, checked October 29, 2026. The App Store lists several prices for each app; we show the range. Prices are for the US and can change.</p>
+<p class="disclosure">We make ZivaAI, which is mentioned at the end. Details for both apps come from their own websites and store listings, checked October 29, 2026. The App Store lists several prices for each app; we show the range. Prices are for the US and can change. <a href="/how-we-compare">How we compare apps</a>.</p>
 
 ## Side by side
 

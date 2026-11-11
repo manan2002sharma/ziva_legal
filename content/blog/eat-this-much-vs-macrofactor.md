@@ -23,10 +23,10 @@ sources:
     url: "https://apps.apple.com/us/app/macrofactor-macro-tracker/id1553503471"
   - title: "MacroFactor on Google Play"
     url: "https://play.google.com/store/apps/details?id=com.sbs.diet"
-related: [eat-this-much-alternatives, myfitnesspal-vs-macrofactor, zivaai-vs-eat-this-much]
+related: [macrofactor-alternatives, eat-this-much-alternatives, myfitnesspal-vs-macrofactor]
 ---
 
-<p class="disclosure">We make ZivaAI, which is mentioned at the end. Details for both apps come from their help pages and store listings, checked October 29, 2026. Prices are for the US and can change.</p>
+<p class="disclosure">We make ZivaAI, which is mentioned at the end. Details for both apps come from their help pages and store listings, checked October 29, 2026. Prices are for the US and can change. <a href="/how-we-compare">How we compare apps</a>.</p>
 
 ## The difference in one line
 

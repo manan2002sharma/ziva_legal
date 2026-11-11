@@ -36,7 +36,7 @@ sources:
 related: [fitbod-vs-planfit, fitbod-vs-freeletics, zivaai-vs-fitbod]
 ---
 
-<p class="disclosure">We make ZivaAI, one of the apps below. Details for every other app come from its own website or App Store listing, checked October 29 and 30, 2026. Several apps list more than one price on the App Store; we show the range. Prices are for the US and can change.</p>
+<p class="disclosure">We make ZivaAI, one of the apps below. Details for every other app come from its own website or App Store listing, checked October 29 and 30, 2026. Several apps list more than one price on the App Store; we show the range. Prices are for the US and can change. <a href="/how-we-compare">How we compare apps</a>.</p>
 
 ## What Fitbod does
 
